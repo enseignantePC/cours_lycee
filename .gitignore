@@ -1,0 +1,9 @@
+.*lock*
+ressource/
+**.mkv
+remote/
+**.mp4
+**.webm
+**not_online/
+# latex
+**build/

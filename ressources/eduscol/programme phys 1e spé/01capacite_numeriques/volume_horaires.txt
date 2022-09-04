@@ -1,0 +1,6 @@
+Volumes horaires d'enseignement
+
+Enseignements de physique-chimie			Horaire élève
+Seconde - enseignement commun				3h
+Première générale - enseignement de spécialité 	4h
+Terminale générale - enseignement de spécialité 	6h

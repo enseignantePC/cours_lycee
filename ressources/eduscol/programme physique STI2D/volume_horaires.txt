@@ -1,0 +1,12 @@
+Enseignements optionnels de seconde 		Horaire élève
+Création et innovation technologique 		1h30
+Sciences de l'ingénieur 			1h30
+
+Enseignements de spécialité de première 	Horaire élève
+Innovation technologique 			3h
+Ingénierie et développement durable 		9h
+Physique-chimie et mathématiques 		6h
+
+Enseignements de spécialité de terminale 		Horaire élève
+Ingénierie, innovation et développement durable 	12h
+Physique-chimie et mathématiques 			6h

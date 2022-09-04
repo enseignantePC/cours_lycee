@@ -1,0 +1,87 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cleese Assignment (For Students)
+% LaTeX Template
+% Version 2.0 (27/5/2018)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Author:
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+
+
+\documentclass[10pt]{article}
+
+\input{fiche_methode.sty} % Include the file specifying the document structure and custom commands
+
+    
+
+%----------------------------------------------------------------------------------------
+%	VARIABLES
+%----------------------------------------------------------------------------------------
+
+\newcommand{\titre}{Fiche méthode : Apprendre à apprendre} % titre de l'activité
+\newcommand{\introduction}{
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse semper massa ac sem egestas, eget venenatis leo dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed vestibulum quam ex, id auctor leo feugiat ut. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc nunc odio, tempor sit amet lorem non, consectetur dignissim justo. Donec ligula risus, finibus nec scelerisque ut, mattis mollis arcu. Donec eu neque nisl. Nulla facilisi.
+    }
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\thispagestyle{fancy}
+\cfoot{}
+
+\begin{titlebox}{\titre}
+    \tcbsubtitle{introduction:}    
+    % for wrapping an icon left or right ----------------------------
+    \begin{wrapfigure}[]{L}{3.5cm}
+        \vspace*{-0.7cm}
+        \tcbincludegraphics[width=3cm,colback=white]{icon.jpeg}
+    \end{wrapfigure}%
+    % ---------------------------------------------------------------
+    \textit{\introduction}
+    % \vspace{3cm}
+    
+    \tcblower
+    
+    \textit{\introduction}
+    
+
+    lolLorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+    \tcbsubtitle{subtitle} 
+
+        % for wrapping an icon left or right ----------------------------
+        \begin{wrapfigure}[]{R}{2.8cm}
+            \vspace*{-0.75cm}
+            \tcbincludegraphics[width=3cm,colback=white]{icon.jpeg}
+        \vspace{-30pt}
+        \end{wrapfigure}%
+        % ---------------------------------------------------------------
+        \textit{\introduction}
+    \linebreak[4]
+
+    \tcbsubtitle{subtitle}
+    
+    \textbf{\color{DarkRed} Damn ---} lol Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+    
+
+    \tcbsubtitle{subtitle} 
+
+    
+\end{titlebox}
+
+
+\end{document}
