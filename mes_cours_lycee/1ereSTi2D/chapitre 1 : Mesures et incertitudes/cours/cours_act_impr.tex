@@ -1,0 +1,78 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cleese Assignment (For Students)
+% LaTeX Template
+% Version 2.0 (27/5/2018)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Author:
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+
+
+\documentclass[10pt]{article}
+
+\input{cours.sty} % Include the file specifying the document structure and custom commands
+\usepackage{ifthen}
+
+
+\geometry{
+	paper=a4paper, % Change to letterpaper for US letter
+	top=   2cm, % Top margin
+	bottom=2cm, % Bottom margin
+	left = 2cm, % Left margin
+	right= 2cm, % Right margin
+	headheight=14pt, % Header height
+	footskip=1.4cm, % Space from the bottom margin to the baseline of the footer
+	headsep=1.2cm, % Space from the top margin to the baseline of the header
+	%showframe, % Uncomment to show how the type block is set on the page
+}
+    
+
+%----------------------------------------------------------------------------------------
+%	VARIABLES
+%----------------------------------------------------------------------------------------
+\newcommand{\titre}{Activité X} % titre de l'activité
+\newcommand{\sep}{-4pt} % titre de l'activité
+\newcommand{\DoItNTimes}{5} % titre de l'activité
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\thispagestyle{fancy}
+\cfoot{}
+
+% \multido{}{3}{\noindent\makebox[\linewidth]{\dotfill}\\}
+
+\newcounter{int}
+\setcounter{int}{1}
+\loop
+
+\begin{mybox}{\textbf{\titre}}    
+    \setlength\parindent{4pt} % Removes all indentation from paragraphs
+    \setlength\parskip{5pt} 
+
+    On peut comprendre le monde autour de soi grâce à la notion d'énergie. Tout changement dans le monde 
+    peut être vu comme un échange ou une conversion d'énergie.
+    Pour représenter ces changements, on peut utiliser des \textbf{\color{DarkRed} {diagrammes d'énergies}}.
+
+\end{mybox}
+
+\vspace{\sep}
+
+\addtocounter{int}{1}
+\ifnum\value{int}<\DoItNTimes\repeat
+
+
+\end{document}

@@ -1,0 +1,225 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cleese Assignment (For Students)
+% LaTeX Template
+% Version 2.0 (27/5/2018)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Author:
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt]{article}
+\input{prep.sty} % Include the file specifying the document structure and custom commands
+% \usepackage{activite}
+
+\newcommand{\mypage}[1]{ 
+		\begin{minipage}[c]{0.45\textwidth}
+			\vspace{5pt}
+			{#1}
+			\vspace{5pt}
+		\end{minipage}
+}
+
+\newcommand{\seancea}{
+	\mypage{
+		Fiche Remise à niveau
+		\begin{list}{$\bullet$}{}
+			\item Ex1 : a,b,c ... ok
+			\item Ex2 : a,b,c 	--- ok
+			\item Ex3 : b 		--- ok
+		\end{list}
+		CS un peu dur.
+
+	\vspace{5pt}
+		Devoir \begin{list}{$\bullet$}{}
+			\item Ex1,2
+			\item Ex3 a,b,c,d
+			\item Ex4 a
+		\end{list}
+	}
+
+
+}
+\newcommand{\seanceb}{
+	\mypage{
+		Fiche Remise à niveau
+		\begin{list}{$\bullet$}{}
+			\item Ex1 abc
+			\item Ex2 abc
+		\end{list}
+
+	\vspace{5pt}
+	Devoir \begin{list}{$\bullet$}{}
+		\item Ex3 bcd
+	\end{list}
+	}
+ }
+\newcommand{\seancec}{ 
+	\mypage{
+		Fiche Remise à niveau
+		\begin{list}{$\bullet$}{}
+			\item Ex1 abc
+			\item Ex2 abc
+		\end{list}
+
+	\vspace{5pt}
+	Devoir \begin{list}{$\bullet$}{}
+		\item Ex 3 bcd
+	\end{list}
+	}
+}
+\newcommand{\seanced}{ 
+\mypage{
+	Fiche Remise à niveau
+	\begin{list}{$\bullet$}{}
+		\item Ex1 abc --- ok
+		\item Ex2 abc --- ok
+	\end{list}
+
+	\vspace{5pt}
+	Devoirs : \begin{list}{$\bullet$}{}
+		\item Ex 3, bcd
+	\end{list}
+}
+
+}
+\newcommand{\seancee}{
+
+	\mypage{
+		Fiche Remise à niveau
+		\begin{list}{$\bullet$}{}
+		\item Loci
+		\item Ex4 abc --- ok
+	\end{list}
+	}
+ }
+
+
+ \newcommand{\seancef}{
+
+	\mypage{
+		Fiche Remise à niveau
+		\begin{list}{$\bullet$}{}
+		\item Ex1,2 --- ok
+		\item Ex2 h,i --- ok
+		\item Ex3 abcd --- ok
+	\end{list}
+	}
+ }
+
+
+ \newcommand{\seanceg}{
+	\mypage{
+		\begin{center}
+			\textbf{PLAN DE SEANCE : }
+		\end{center}
+
+		\begin{list}{$\bullet$}{}
+			\item RàNiv Correction Ex 1 d -> end
+			\item RàNiv Correction Ex 2 d -> end
+			\item RàNiv Correction Ex 3 acd
+			\item RàNiv Correction Ex 4 a
+			\item Fiche Chapitre 1
+			\item Exercice 5
+			\item Problème difficile
+		\end{list}
+	}
+ }
+
+
+ \newcommand{\seanceh}{
+	\mypage{
+		\begin{center}
+			\textbf{PLAN DE SEANCE :}
+		\end{center}
+
+		% \begin{list}{$\bullet$}{}
+		% 	\item RàNiv Correction Ex 3 bcd
+		% 	\item RàNiv Ex4 abc
+		% 	\item RàNiv Ex5 abc
+		% 	\item RàNiv pb1
+		% 	\item RàNiv pb3
+		% \end{list}
+	}
+ }
+
+
+ \newcommand{\seancei}{
+	\mypage{
+		\begin{center}
+			\textbf{PLAN DE SEANCE :}
+		\end{center}
+
+		\begin{list}{$\bullet$}{}
+			\item RàNiv Correction Ex 3 bcd
+			\item RàNiv Ex4 abc
+			\item RàNiv Ex5 abc
+			\item RàNiv pb1
+			\item RàNiv pb3
+		\end{list}
+	}
+ }
+
+
+ \newcommand{\seancej}{
+	\mypage{
+		\begin{center}
+			\textbf{PLAN DE SEANCE :}
+		\end{center}
+
+		\begin{list}{$\bullet$}{}
+			\item Fiche chapitre 1
+			\item Exercice 5
+		\end{list}
+	}
+ }
+
+
+
+
+\usepackage{longtable}
+
+
+
+\begin{document}
+\begin{center}
+	\textbf{CAHIER DE TEXTE}
+\end{center}
+
+%	\setlength{\arrayrulewidth}{0.5mm}
+\setlength{\tabcolsep}{13pt}
+\renewcommand{\arraystretch}{2.5}
+\begin{longtable}{@{}|c|c|c|c|c|@{}} \toprule
+	Date        & Heure & Séance n° & Classe    & Contenu  \\\midrule
+	\midrule\multicolumn{5}{||c||}{SEMAINE 1}              \\\midrule\midrule
+	Lun 5 Sept  & 8h    & 1         & STI2D : B & \seancea \\\midrule
+	Lun 5 Sept  & 12h20 & 1         & 1GEN1     & \seanceb \\\midrule
+	Lun 5 Sept  & 15h30 & 1         & STI2D     & \seancec \\\midrule\midrule
+	Jeu 8 Sept  & 13h30 & 1         & 1GEN2     & \seanced \\\midrule
+	Jeu 8 Sept  & 14h30 & 1         & STI2D     & \seancee \\\midrule
+	Jeu 8 Sept  & 15h30 & 1         & STI2D : A & \seancef \\
+	            &       &           &           &          \\
+	% \midrule\multicolumn{5}{||c||}{ SEMAINE 2 }            \\\midrule\midrule
+	\midrule\multicolumn{5}{||c||}{ SEMAINE 2 }            \\\midrule\midrule
+	Lun 12 Sept & 8h    & 2         & STI2D : B & \seanceg \\\midrule
+	Lun 12 Sept & 11h20 & 2         & 1GEN2 : B & \seancei \\\midrule
+	Lun 12 Sept & 12h20 & 2         & 1GEN1 : B & \seancei \\\midrule
+	Lun 12 Sept & 15h30 & 2         & STI2D     & \seancej \\\midrule
+	Lun 12 Sept & 16h30 & 2         & 1GEN1 : A & \seancei \\\midrule
+
+
+	% \bottomrule
+\end{longtable}
+
+\end{document}
+
