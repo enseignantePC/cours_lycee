@@ -1,0 +1,155 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cleese Assignment (For Students)
+% LaTeX Template
+% Version 2.0 (27/5/2018)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Author:
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+
+
+\documentclass[24pt]{article}
+
+\input{activite.sty} % Include the file specifying the document structure and custom commands
+\input{annotate_equations.sty}
+
+
+%----------------------------------------------------------------------------------------
+%	VARIABLES
+%----------------------------------------------------------------------------------------
+
+% Required
+\newcommand{\assignmentQuestionName}{Question} % The word to be used as a prefix to question numbers; example alternatives: Problem, Exercise
+\newcommand{\assignmentClass}{Physique Chimie --} % Course/class
+\newcommand{\assignmentTitle}{Chapitre 1: Les éléments chimiques} % Assignment title or name
+\newcommand{\assignmentAuthorName}{Mme Cercy} 
+% \newcommand{\assignmentAuthorName}{Chapitre Y} 
+% \newcommand{\titre}{Activité 1 : Les éléments chimiques dans les étoiles} % titre de l'activité
+\newcommand{\titreActivite}{\huge Act 2 : La radioactivité, un phénomène naturel} % titre de l'activité
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\thispagestyle{fancy}
+% \cfoot{}
+
+\date{}
+\title{\titreActivite}
+\maketitle % Print the title page
+
+
+\begin{documentpeda}{Une découverte fortuite}
+    En 1896, Henri Becquerel étudie les propriétés de fluorescence des sels d’uranium en
+    les exposant aux rayons solaires, puis en les déposant sur une plaque photographique.
+    Après quelques minutes, la plaque est impressionnée comme si elle avait été exposée à la lumière.
+    Henri Becquerel pense
+    que ce sont les rayonnements absorbés par l’uranium qui sont réémis sous forme de rayons X vers la plaque.
+    C’est par hasard qu’il découvre que si les sels restent plusieurs jours dans un tiroir, une image apparaît
+    également sur une plaque photographique à proximité ! Sa théorie sur la fluorescence des sels d’uranium
+    est remise en cause. L’uranium émet des rayonnements de façon « naturelle ».
+\end{documentpeda}
+
+\begin{minipage}[c]{0.45\textwidth}
+    \begin{documentpeda}{La loi de décroissance radioactive}
+        Dans un échantillon contenant au départ $N_0$ atomes radioactifs,
+        le nombre de noyaux décroît de telle sorte que le nombre N
+        de noyaux est divisé par deux au bout d’une durée appelée « demi-vie » notée $t_{\frac{1}{2}}$
+        et qui dépend de la nature du noyau. Par exemple, la demi-vie du carbone 14 vaut 5 730 ans.
+        \begin{center}
+            \includegraphics[width=\columnwidth]{doc2.png}
+        \end{center}
+    \end{documentpeda}
+\end{minipage}
+\hspace{0.1\textwidth}
+\begin{minipage}[c]{0.45\textwidth}
+    \begin{documentpeda}{La désintégration du carbone 14}
+        Le carbone 14 $(Z=6)$ est un noyau radioactif instable, qui se désintègre en libérant un électron et
+        en se transformant en un autre noyau,
+        l’azote 14 $(Z=7)$. Dans le noyau, un neutron se transforme en proton en éjectant un électron.
+        Le noyau ainsi formé se désexcite ensuite en émettant un rayonnement gamma $(γ)$.
+
+        \begin{center}
+            \includegraphics[width=\columnwidth]{doc3.png}
+        \end{center}
+    \end{documentpeda}
+\end{minipage}
+
+\begin{minipage}[c]{0.45\textwidth}
+    \begin{definition}[Fluorescence]
+        Propriété d’un corps qui, après avoir été éclairé, émet de la lumière.
+    \end{definition}
+\end{minipage}
+\hspace{0.1\textwidth}
+\begin{minipage}[c]{0.45\textwidth}
+    \begin{definition}[Noyau radioactif]
+        Un noyau instable est radioactif, il va se désintégrer inéluctablement à un instant qui n’est pas prévisible.
+    \end{definition}
+\end{minipage}
+
+\assignmentSection{Questions}
+
+%----------------------------------------------------------------------------------------
+%	QUESTION 
+%----------------------------------------------------------------------------------------
+
+\begin{question}
+    \questiontext{
+        Répondre à l'aide du document 1.
+        Quelles observations de Becquerel lui ont permis d’affirmer que la radioactivité est un phénomène naturel ?
+    }
+\end{question}
+\answerbox{2}
+
+%----------------------------------------------------------------------------------------
+%	
+%----------------------------------------------------------------------------------------
+
+\begin{question}
+    \questiontext{
+        Répondre à l'aide du document 2.
+        Combien de temps faut-il pour que la population en carbone 14 d’un échantillon soit divisée par 2 ? Et par 4 ?
+    }
+\end{question}
+% \answerbox{1}
+
+%----------------------------------------------------------------------------------------
+%	QUESTION 
+%----------------------------------------------------------------------------------------
+
+\begin{question}
+    \questiontext{
+        Répondre à l'aide du document 3.
+    }
+\end{question}
+%	\answerbox{}
+\subquestion{Donnez la composition du noyau de l’atome de carbone 14}
+\subquestion{
+    Identifiez la modification qui a eu lieu dans le noyau de l’atome de carbone 14 au cours de
+    sa désintégration et écrivez l’équation de la désintégration.
+}
+
+\end{document}
+
+%----------------------------------------------------------------------------------------
+%	QUESTION 
+%----------------------------------------------------------------------------------------
+
+\begin{question}
+    \questiontext{
+        Expliquez le phénomène de radioactivité à travers l’exemple du carbone 14.
+    }
+\end{question}
+\answerbox{4}

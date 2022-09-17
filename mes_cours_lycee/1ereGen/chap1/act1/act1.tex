@@ -1,0 +1,158 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cleese Assignment (For Students)
+% LaTeX Template
+% Version 2.0 (27/5/2018)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Author:
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+
+
+\documentclass[24pt]{article}
+
+\input{activite.sty} % Include the file specifying the document structure and custom commands
+\input{annotate_equations.sty}
+% \input{data.tex}
+
+
+%----------------------------------------------------------------------------------------
+%	VARIABLES
+%----------------------------------------------------------------------------------------
+
+% Required
+\newcommand{\assignmentQuestionName}{Question} % The word to be used as a prefix to question numbers; example alternatives: Problem, Exercise
+\newcommand{\assignmentClass}{Physique Chimie --} % Course/class
+\newcommand{\assignmentTitle}{Chapitre 1: Les éléments chimiques} % Assignment title or name
+\newcommand{\assignmentAuthorName}{Mme Cercy} 
+% \newcommand{\assignmentAuthorName}{Chapitre Y} 
+% \newcommand{\titre}{Activité 1 : Les éléments chimiques dans les étoiles} % titre de l'activité
+\newcommand{\titreActivite}{\huge Activité 1 : Les éléments chimiques dans les étoiles} % titre de l'activité
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\thispagestyle{fancy}
+% \cfoot{}
+
+\date{}
+\title{\titreActivite}
+\maketitle % Print the title page
+
+\begin{center}
+    Les astrophysiciens identifient les éléments chimiques présents dans les étoiles en analysant leurs spectres lumineux.
+
+    Comment peut-on déterminer la composition des étoiles à partir de leur spectre lumineux ?
+\end{center}
+
+
+\begin{minipage}[c]{0.45\textwidth}
+    \begin{definition}[Spectre d'émission]
+        Spectre d’une lumière directement émise par une source.
+    \end{definition}
+\end{minipage}
+\hspace{0.1\textwidth}
+\begin{minipage}[c]{0.45\textwidth}
+    \begin{definition}[Spectre d'absorption]
+        Spectre d’une lumière blanche ayant traversé une substance (gaz, filtre, solution, etc.).
+
+    \end{definition}
+\end{minipage}
+
+\begin{documentpeda}{Spectre du Soleil}
+    Le spectre d’une étoile est la superposition d’un spectre
+    d'émission d’origine thermique (fond coloré) et de raies d’absorption (spectre d’absorption, raies noires).
+    La longueur d’onde de ces raies permet d’identifier les éléments chimiques présents dans l’étoile.
+    Dans le cas du Soleil, ces raies sont appelées « raies de Fraunhofer »,
+    du nom du physicien et opticien allemand qui les a observées pour la première fois au XIXe siècle.
+    Les raies notées de A à H sont celles qu’il a identifiées en 1814.
+
+    \begin{center}
+        \includegraphics[width=0.7\columnwidth]{spectre.png}
+    \end{center}
+\end{documentpeda}
+
+
+\begin{documentpeda}{Composition chimique de la photosphère}
+
+    \hspace{20pt}
+    \begin{minipage}[c]{0.45\textwidth}
+        Une étoile est une masse gazeuse dans laquelle on trouve principalement de l’hydrogène et de l’hélium.
+        Elle peut contenir aussi d’autres éléments chimiques, dont la nature et l’abondance dépendent de l’étoile.
+        Tous les éléments chimiques de numéro atomique supérieur à 2 sont considérés comme des
+        « éléments lourds » en astrophysique.
+    \end{minipage}
+    \hspace{20pt}
+    \begin{minipage}[c]{0.45\textwidth}
+        \begin{center}
+            %	\setlength{\arrayrulewidth}{0.5mm}
+            \setlength{\tabcolsep}{18pt}
+            \renewcommand{\arraystretch}{1.5}
+            \begin{tabular}{@{}|l|c|@{}} \toprule
+                Hydrogène (Z = 1) & 73,46 \% \\
+                Hélium (Z = 2)    & 24,85 \% \\
+                Oxygène (Z = 8)   & 0,77  \% \\
+                Carbone (Z = 6)   & 0,29  \% \\
+                Fer (Z = 26)      & 0,16  \% \\
+                Néon (Z = 10)     & 0,12  \% \\
+                \bottomrule
+            \end{tabular}
+        \end{center}
+    \end{minipage}
+
+
+
+
+
+\end{documentpeda}
+
+\assignmentSection{Questions}
+% \vspace{-10pt}
+
+%----------------------------------------------------------------------------------------
+%	QUESTION 1
+%----------------------------------------------------------------------------------------
+
+\begin{question}
+    \questiontext{
+        L’atome d’hydrogène est caractérisé par plusieurs raies lumineuses. Une des raies a une longueur d’onde de 656 nm. Peut-on identifier cette raie sur le spectre du document 1 ?
+    }
+\end{question}
+\answerbox{2}
+
+%----------------------------------------------------------------------------------------
+%	QUESTION 2
+%----------------------------------------------------------------------------------------
+
+\begin{question}
+    \questiontext{
+        À l'aide du document 2, Tracez un diagramme circulaire donnant la composition chimique en pourcentage massique du Soleil.
+    }
+\end{question}
+%	\answerbox{}
+
+
+%----------------------------------------------------------------------------------------
+%	QUESTION 3
+%----------------------------------------------------------------------------------------
+
+\begin{question}
+    \questiontext{
+        Expliquez comment identifier les éléments chimiques présents dans une étoile.
+    }
+\end{question}
+%	\answerbox{}
+
+\end{document}

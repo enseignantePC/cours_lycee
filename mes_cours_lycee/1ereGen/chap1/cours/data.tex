@@ -1,0 +1,59 @@
+
+\newcommand{\mypage}[1]{
+    \begin{minipage}[t]{0.4\textwidth}
+        {#1}
+    \end{minipage}
+}
+
+%	\setlength{\arrayrulewidth}{0.5mm}
+%	\setlength{\tabcolsep}{18pt}
+\newcommand{\programme}{
+    \renewcommand{\arraystretch}{2}
+    \begin{center}
+        \begin{tabular}{@{}|l|l|@{}}
+            \multicolumn{2}{c}{
+            Programme : Un niveau d’organisation, les éléments chimiques} \\ \midrule
+
+            \mypage{Savoirs} & \mypage{Savoirs-faire}                     \\\midrule
+
+            \mypage{
+                Les noyaux des atomes de la centaine
+                d’éléments chimiques stables résultent de
+                réactions nucléaires qui se produisent au sein des étoiles à partir de l’hydrogène initial.
+
+                La matière connue de l’Univers est formée principalement
+                d’hydrogène et d’hélium alors que la Terre est surtout constituée
+                d’oxygène, d’hydrogène, de fer, de silicium, de magnésium
+                et les êtres vivants de carbone, hydrogène, oxygène et
+                azote.}
+                             &
+
+            \mypage{
+                Produire et analyser différentes
+                représentations graphiques de l’abondance des éléments chimiques (proportions)
+                dans l’Univers, la Terre, les êtres vivants.
+                L’équation d’une réaction nucléaire stellaire étant
+                fournie, reconnaître si celle-ci relève d’une fusion ou
+                d’une fission.
+            }                                                             \\
+
+            \mypage{Certains noyaux sont instables et se
+                désintègrent (radioactivité).
+                L’instant de désintégration d’un noyau
+                radioactif individuel est aléatoire.
+                La demi-vie d’un noyau radioactif est la durée nécessaire pour que la moitié des noyaux initialement présents dans un échantillon macroscopique se soit désintégrée.
+                Cette demi-vie est caractéristique du noyau radioactif.
+            }
+                             &
+            \mypage{Calculer le nombre de noyaux restants au
+                bout de n demi-vies
+                Estimer la durée nécessaire pour obtenir une certaine proportion de noyaux restants.
+                Utiliser une représentation graphique pour déterminer une demi-vie.
+                Utiliser une décroissance radioactive pour
+                une datation (exemple du carbone 14).
+            }                                                             \\
+            \bottomrule\end{tabular}
+    \end{center}
+
+}
+
