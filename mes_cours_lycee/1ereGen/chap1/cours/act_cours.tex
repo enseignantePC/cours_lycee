@@ -31,19 +31,20 @@
 %----------------------------------------------------------------------------------------
 
 % % Required
-% \newcommand{\assignmentQuestionName}{Question} % The word to be used as a prefix to question numbers; example alternatives: Problem, Exercise
+\newcommand{\assignmentQuestionName}{Exercice} % The word to be used as a prefix to question numbers; example alternatives: Problem, Exercise
 \newcommand{\assignmentClass}{Physique Chimie ---} % Course/class
 \newcommand{\assignmentTitle}{Chapitre 1: Les éléments chimiques} % Assignment title or name
-% \newcommand{\assignmentAuthorName}{Mme Cercy} 
-% % \newcommand{\assignmentAuthorName}{Chapitre Y} 
+\newcommand{\assignmentAuthorName}{Mme Cercy} 
+% \newcommand{\assignmentAuthorName}{Chapitre 1} 
 % % \newcommand{\titre}{Activité 1 : Les éléments chimiques dans les étoiles} % titre de l'activité
 % \newcommand{\titreActivite}{\huge Act 2 : La radioactivité, un phénomène naturel} % titre de l'activité
 
 %----------------------------------------------------------------------------------------
 
 \begin{document}
-\thispagestyle{fancy}
-\cfoot{}
+% \thispagestyle{fancy}
+% \cfoot{}
+\chead{2022-2023}
 \date{}
 \title{\huge Chapitre 1: Les éléments chimiques}
 \maketitle % Print the title page
@@ -117,6 +118,7 @@
 
             \item Sur Terre, on a observé 94 éléments chimiques
                   à l’état naturel, 24 autres ont été créés artificiellement.
+
         \end{list}
     \end{minipage}
     \hspace{0.05\textwidth}
@@ -129,6 +131,7 @@
         on trouve majoritairement de
         l’hydrogène et de l’hélium dans les étoiles, tandis que la Terre
         est formée principalement d’oxygène et de silicium.
+
     \end{minipage}
 \end{concept}
 
@@ -142,12 +145,24 @@
 
     \begin{list}{$\bullet$}{}
         \item
-              Selon les théories les plus récentes, les premiers atomes ont été formés quelques minutes
-              après le « Big Bang ». L’Univers était alors extrêmement chaud ($10^9$ K) et dense,
-              les particules élémentaires se sont agglomérées pour former des noyaux d’hydrogène ($^1_1$H), de
-              deutérium ($^2_1$H ou $^2_1$D) et d’hélium et de lithium.
+              \begin{minipage}[c]{0.6\textwidth}
+                  Selon les théories les plus récentes, les premiers atomes ont été formés quelques minutes
+                  après le « Big Bang ». L’Univers était alors extrêmement chaud ($10^9$ K) et dense,
+                  les particules élémentaires se sont agglomérées pour former des noyaux d’hydrogène ($^1_1$H), de
+                  deutérium ($^2_1$H ou $^2_1$D) et d’hélium et de lithium.
 
-              Cette réaction nucléaire est appelée fusion nucléaire.
+                  Cette réaction nucléaire est appelée fusion nucléaire.
+              \end{minipage}
+              \hspace{0.05\textwidth}
+              \begin{minipage}[c]{0.3\textwidth}
+                  Rappel : Tout les éléments se notent:
+                  \vspace{10pt}
+                  $$^{\eqnmark{nucleon}{N}}_{\eqnmark{proton}{P}}\eqnmark{elem}{X}$$
+                  \annotate[yshift=5pt]{right}{elem}{Un atome}
+                  \annotate[yshift=5pt]{left,above}{nucleon}{nombre de nucleon}
+                  \annotate[]{left,below}{proton}{nombre de protons}
+              \end{minipage}
+
               \vspace{10pt}
         \item
               \begin{minipage}[c]{0.6\textwidth}
@@ -179,7 +194,7 @@
         \item Sous l’impact de neutrons ou d’autres particules légères, certains noyaux se
               cassent : c’est la fission.
 
-        \item Ces éléments chimiques sont dispersés à la fin de la vie de l’étoile.
+              % \item Ces éléments chimiques sont dispersés à la fin de la vie de l’étoile.
     \end{list}
 
     \begin{center}
@@ -196,8 +211,104 @@
     \begin{center}
         \includegraphics[width=0.4\columnwidth]{nuclear2.png}
     \end{center}
-
 \end{concept}
+
+\assignmentSection{Exercices}
+
+
+%----------------------------------------------------------------------------------------
+%	QUESTION 
+%----------------------------------------------------------------------------------------
+
+\begin{question}
+    \questiontext{
+        L'Univers est constitué de 118 éléments chimiques. Seuls 94 ont été observés sur Terre, les autres étant instables.
+
+        %	\setlength{\arrayrulewidth}{0.5mm}
+        \setlength{\tabcolsep}{8pt}
+        % \renewcommand{\arraystretch}{1.5}
+        \begin{center}
+            \begin{tabular}{@{}|l|l|l|l|l|l|l|l|l|l|l|@{}} \toprule
+                Numéro atomique $Z$ & 1       & 2       & 6     & 7   & 8      & 10    & 12  & 14  & 16  & 26    \\
+                Élément             & H       & He      & C     & N   & O      & Ne    & Mg  & Si  & S   & Fe    \\
+                Concentration (ppm) & 739 000 & 240 000 & 4 600 & 960 & 10 400 & 1 340 & 580 & 650 & 440 & 1 090 \\
+                Pourcentages        &         &         &       &     &        &       &     &     &     &       \\
+                \bottomrule\end{tabular}
+        \end{center}
+
+        Ce tableau donne, en ppm (parties par million), la répartition des dix éléments les plus présents dans notre Galaxie.
+    }
+\end{question}
+\subquestion{ Convertissez en pourcentage les valeurs données en ppm (parties par million) et compléter le tableau.}
+\subquestion{Représentez sous la forme d'un diagramme en bâtons l'abondance des éléments chimiques les plus fréquents.}
+
+%----------------------------------------------------------------------------------------
+%	QUESTION 
+%----------------------------------------------------------------------------------------
+
+\begin{question}
+    \questiontext{
+        Pour remplacer les centrales nucléaires à fission, qui produisent de nombreux déchets radioactifs et posent des problèmes environnementaux, la recherche s'oriente vers les réactions de fusion entre le deutérium et le tritium. Les nouvelles centrales à fusion seraient beaucoup moins polluantes et sans danger pour l'Homme.
+    }
+\end{question}
+\subquestion{La représentation symbolique du noyau de l'atome X est : $^Z_AX$. Donnez la signification et le nom des nombres Z et A.}
+\subquestion{L'hydrogène a trois isotopes : l'hydrogène 1, le deutérium $^1_2H$ et le tritium $^1_3H$. Donnez leur composition.}
+\subquestion{Identifiez la réaction qui correspond à une fusion}
+\begin{minipage}[c]{0.45\textwidth}
+    \begin{center}
+        Réaction 1 : \hspace{10pt}
+        $^1_3H → ^3_2He + ^0_{-1}e^- $
+    \end{center}
+\end{minipage}
+\hspace{0.1\textwidth}
+\begin{minipage}[c]{0.45\textwidth}
+    \begin{center}
+        Réaction 2 :\hspace{10pt}
+        $^2_1H + ^3_1H → ^4_2He + ^1_0n$
+    \end{center}
+
+\end{minipage}
+% \subquestion{}
+%----------------------------------------------------------------------------------------
+%	QUESTION 
+%----------------------------------------------------------------------------------------
+\vspace{10pt}
+
+\begin{minipage}[c]{0.6\textwidth}
+    \begin{question}
+        \questiontext{
+            Une des réactions qui se produit dans les étoiles est la réaction « triple alpha », qui est à l'origine de la formation des noyaux de carbone 12. Cette réaction se produit vers la fin de vie d'une étoile, quand la température (100 MK) devient suffisamment élevée pour que le béryllium 8 puisse rencontrer un noyau d'hélium et former le carbone 12 très stable.
+        }
+    \end{question}
+\end{minipage}
+\hspace{0.05\textwidth}
+\begin{minipage}[c]{0.35\textwidth}
+    \includegraphics[width=0.8\columnwidth]{ex.png}
+\end{minipage}
+
+\subquestion{Donnez la composition du noyau d'hélium 4 ($Z_{He}$=2), du béryllium 8 ($Z_{Be}$=4) et du carbone 12 ($Z_C$=6).}
+\subquestion{Écrivez les deux équations des réactions qui permettent de transformer l'hélium 4 en carbone 12.}
+\subquestion{Indiquez de quel type de réaction il s'agit.}
+
+
+%----------------------------------------------------------------------------------------
+%	QUESTION 
+%----------------------------------------------------------------------------------------
+
+\begin{question}
+    \questiontext{
+        On fait la datation au Carbone 14 d'un morceau de charbon.
+        Cet élément radioactif est présent dans tout être vivant à un
+        taux constant.
+        À leur mort, les échanges de matière avec le milieu n'ayant plus lieu, le taux de carbone 14 diminue car il se désintègre.
+        La mesure de ce taux dans un échantillon permet donc de dater
+        approximativement sa mort.
+
+        \textbf{Déterminez} l'âge du morceau de charbon sachant que l'activité de l'échantillon testé montre que le nombre d'atomes de carbone 14 est 16 fois plus faible qu'à sa formation.
+        (La demi-vie du carbone 14 est de $t\frac{1}{2}$= 5 734 ans.)
+    }
+\end{question}
+%	\answerbox{}
 
 
 

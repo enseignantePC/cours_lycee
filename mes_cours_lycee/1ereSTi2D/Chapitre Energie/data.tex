@@ -1,0 +1,107 @@
+
+
+\newcommand{\prgrmparun}{
+    \mypage{
+        \begin{itemize}
+            \item Citer les différentes formes d’énergie utilisées dans les
+                  domaines de la vie courante, de la production et des
+                  services.
+            \item Distinguer les formes d’énergie des différentes sources
+                  d’énergie associées.
+        \end{itemize}
+    }
+}
+
+
+\newcommand{\prgrmpardeux}{
+    \mypage{
+        \begin{itemize}
+            \item Énoncer et exploiter la relation entre puissance, énergie
+                  et durée.
+            \item Évaluer et citer des ordres de grandeur des puissances
+                  mises en jeu dans les secteurs de l’énergie, de l’habitat,
+                  des transports, des communications, etc.
+        \end{itemize}
+    }
+}
+
+\newcommand{\prgrmpartrois}{
+    \mypage{
+        \begin{itemize}
+            \item Identifier les principales conversions d’énergie :
+                  électromécanique, photoélectrique, électrochimique,
+                  thermodynamique (conversions réalisées par une
+                  machine thermique), etc.
+            \item Schématiser une chaîne énergétique ou une conversion
+                  d’énergie en distinguant formes d’énergie, sources
+                  d’énergie et convertisseurs.
+            \item Évaluer ou mesurer une quantité d’énergie transférée,
+                  convertie ou stockée.
+        \end{itemize}
+    }
+}
+
+\newcommand{\prgrmparquatre}{
+    \mypage{
+        \begin{itemize}
+            \item Énoncer le principe de conservation de l’énergie pour un
+                  système isolé.
+            \item Exploiter le principe de conservation de l’énergie pour
+                  réaliser un bilan énergétique et calculer un rendement
+                  pour une chaîne énergétique ou un convertisseur.
+            \item Déterminer le rendement d’une chaîne énergétique ou
+                  d’un convertisseur
+        \end{itemize}
+    }
+}
+
+
+\newcommand{\prgrmparcinq}{
+    \mypage{
+        \begin{itemize}
+            \item Énoncer qu’une ressource d’énergie est qualifiée de
+                  « renouvelable » si son renouvellement naturel est
+                  assez rapide à l’échelle de temps d’une vie humaine.
+        \end{itemize}
+    }
+}
+
+
+\newcommand{\mypage}[1]{
+    \begin{minipage}[t]{0.6\textwidth}
+        {#1}
+    \end{minipage}
+}
+
+%	\setlength{\arrayrulewidth}{0.5mm}
+%	\setlength{\tabcolsep}{18pt}
+\newcommand{\programme}{
+    \renewcommand{\arraystretch}{2}
+    \begin{center}
+        \begin{tabular}{@{}|l|l|@{}}
+            \multicolumn{2}{c}{Programme : Énergie}                     \\ \midrule
+
+            \begin{minipage}[t]{0.3\textwidth}
+                {Savoirs}\end{minipage}         & \mypage{Savoirs-faire}    \\\midrule
+
+            Formes d’énergie.                          & \prgrmparun    \\
+
+            Énergie et puissance.                      & \prgrmpardeux  \\
+
+            \begin{minipage}[t]{0.3\textwidth}
+                Les conversions et les chaînes
+                énergétiques.
+
+                Stockage de l’énergie.\end{minipage}       & \prgrmpartrois \\
+
+            \begin{minipage}[t]{0.3\textwidth}
+                Principe de la conservation de l’énergie.
+                Rendement\end{minipage}  & \prgrmparquatre                  \\
+
+            Ressource d’énergie dite « renouvelable ». & \prgrmparcinq  \\
+
+            \bottomrule\end{tabular}
+    \end{center}
+
+}
+

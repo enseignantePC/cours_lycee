@@ -1,0 +1,184 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cleese Assignment (For Students)
+% LaTeX Template
+% Version 2.0 (27/5/2018)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Author:
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+
+
+\documentclass[24pt]{article}
+
+\input{activite.sty} % Include the file specifying the document structure and custom commands
+\input{annotate_equations.sty}
+\input{data.tex}
+
+%----------------------------------------------------------------------------------------
+%	VARIABLES
+%----------------------------------------------------------------------------------------
+
+% % Required
+% \newcommand{\assignmentQuestionName}{Question} % The word to be used as a prefix to question numbers; example alternatives: Problem, Exercise
+\newcommand{\assignmentClass}{Physique Chimie ---} % Course/class
+\newcommand{\assignmentTitle}{Chapitre 1: Les éléments chimiques} % Assignment title or name
+% \newcommand{\assignmentAuthorName}{Mme Cercy} 
+% % \newcommand{\assignmentAuthorName}{Chapitre Y} 
+% % \newcommand{\titre}{Activité 1 : Les éléments chimiques dans les étoiles} % titre de l'activité
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+% \thispagestyle{fancy}
+\cfoot{}
+\date{}
+\title{\huge Chapitre 2 : Énergie électrique}
+\maketitle % Print the title page
+
+\programme
+
+\assignmentSection{Cours}
+
+\vspace{-10pt}
+
+\begin{concept}{Loi des nœuds}
+    \begin{minipage}[c]{0.75\textwidth}
+        La quantité d’électrons qui circulent dans le circuit se conserve. La loi des nœuds traduit
+        cette conservation : en C et en G, le courant se divise en deux parties, qui peuvent être
+        égales ou non.
+
+        Loi des nœuds : la somme des courants entrant à un nœud est égale à la somme des courants sortant :
+        $I_1+I_2=I_3+I_4$
+
+        S’il n’y a pas de nœuds, comme pour deux dipôles associés en série, alors l’intensité reste la même.
+    \end{minipage}
+    % \hspace{0.1\textwidth}
+    \begin{minipage}[c]{0.3\textwidth}
+        \begin{center}
+            \includegraphics[width=0.4\columnwidth]{noeud.png}
+        \end{center}
+    \end{minipage}
+\end{concept}
+
+
+\begin{concept}{La tension électrique}
+    La tension électrique est une grandeur caractérisant une différence d’état électrique entre
+    deux points d’un circuit.
+
+    On a choisi de la représenter par une flèche. Ainsi, dans le circuit modèle,
+    la tension $U_2$ est égale à la tension $U_{CF}$ (la flèche pointe vers C).
+    La tension $U_{AB}$ (la flèche pointe vers A) est égale à $-U_{BA}$
+    (la flèche de $U_{BA}$ pointe vers B).
+
+    La tension U s’exprime en volt noté V.
+
+    La tension électrique aux bornes d’un dipôle se mesure avec un voltmètre
+    toujours placé en dérivation sur les bornes de ce dipôle.
+\end{concept}
+
+\begin{concept}{circuit électrique}\begin{minipage}[c]{0.75\textwidth}
+
+        Un circuit électrique est composé d’au moins un générateur, un récepteur
+        (résistance, moteur, DEL, etc.) et des fils de connexion.
+
+        \begin{itemize}
+            \item Un dipôle est un élément d’un circuit électrique possédant deux bornes.
+            \item
+            \item Un nœud est une connexion qui relie au moins trois dipôles entre eux. Sur
+                  le circuit modèle, C et F sont des nœuds électriques.
+
+            \item Une maille est un chemin fermé, ne comportant pas forcément de générateur.
+                  Le circuit modèle possède trois mailles : (ABCFA), (ABCDEFA) et (CDEFC).
+        \end{itemize}
+        \vspace{5pt}
+
+        Il existe deux types d’association des dipôles entre eux,
+        l’association en série et l’association en dérivation :
+        \begin{list}{$\bullet$}{}
+            \item deux dipôles sont en série s'ils sont situés dans la même maille et ne sont pas
+                  séparés par un nœud.
+
+            \item deux dipôles sont en dérivation si leurs bornes sont connectées aux mêmes nœuds.
+        \end{list}
+
+        Sur le circuit ci dessous, l’ampèremètre et la résistance $R_1$ sont associés en série
+        (ils sont donc traversés par un courant de même intensité).
+        Les résistances $R_2$ et $R_3$ sont associées en dérivation.
+    \end{minipage}
+    % \hspace{0.1\textwidth}
+    \begin{minipage}[c]{0.25\textwidth}
+        \begin{center}
+            \includegraphics[width=\columnwidth]{c1.png}
+        \end{center}
+    \end{minipage}
+
+
+
+
+\end{concept}
+
+
+\begin{concept}{La loi d'Ohm}
+    La loi d’Ohm relie la tension aux bornes d’un résistor (une « résistance ») et
+    l’intensité du courant qui le traverse.
+    Son expression est: $U = RI$
+
+    \begin{center}
+        \includegraphics[width=0.2\columnwidth]{ohm.png}
+    \end{center}
+
+    U est exprimée en volt (V), I en ampère (A) et R en ohm ($Ω$). On aura ici $U_1 = R_1 \times I_1$.
+
+    \begin{list}{$\bullet$}{}
+        \item Une convention d’écriture importante : pour que les tensions représentées
+              correspondent à des valeurs positives de tension, l’orientation des flèches de
+              tension est importante. Dans le cas d’un générateur, la flèche représentant la tension
+              est orientée dans le même sens que le sens de parcours du courant électrique.
+
+        \item Dans le cas d’un dipôle récepteur passif comme une résistance par exemple, la flèche
+              représentant la tension est orientée dans le sens opposé au sens de parcours du courant électrique.
+    \end{list}
+\end{concept}
+
+\begin{concept}{Loi des mailles}
+    \begin{minipage}[c]{0.7\textwidth}
+        la somme des tensions des dipôles le long d’une maille est égale à 0 V.
+
+        Ainsi, en parcourant la maille (AGFEDCBA) dans le sens des pointillés verts,
+        on peut écrire $U_{AA}=0 V$ soit :
+        $$U_{AG}+U_{GF}+U_{FE}+U_{ED}+U_{DC}+U_{CB}+U_{BA}=0 V$$
+
+        $$0+0-U_{EF}-U_{DE}+0+0+U_{BA}=0 V$$
+
+        Par ailleurs, en parcourant la maille (ABCGA) dans le sens des pointillés bleus,
+        on peut écrire $U_{AA}=0 V$ soit :
+        $$U_{AB}+U_{BC}+U_{CG}+U_{GA}=0V$$
+        $$U_{AB}+0+U_{CG}+0=0 V$$
+
+        d’où : $U_{BA}$=$U_{CG}$
+
+        On retrouve ici la loi d’unicité des tensions sur deux branches en dérivation.
+    \end{minipage}
+    % \hspace{0.1\textwidth}
+    \begin{minipage}[c]{0.3\textwidth}
+        \begin{center}
+            \includegraphics[width=0.8\columnwidth]{c2.png}
+        \end{center}
+    \end{minipage}
+\end{concept}
+
+
+
+\end{document}
