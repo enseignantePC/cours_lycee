@@ -119,21 +119,7 @@
 
 
  \newcommand{\seanceg}{
-	\mypage{
-		\begin{center}
-			\textbf{PLAN DE SEANCE : }
-		\end{center}
-
-		\begin{list}{$\bullet$}{}
-			\item RàNiv Correction Ex 1 d -> end
-			\item RàNiv Correction Ex 2 d -> end
-			\item RàNiv Correction Ex 3 acd
-			\item RàNiv Correction Ex 4 a
-			\item Fiche Chapitre 1
-			\item Exercice 5
-			\item Problème difficile
-		\end{list}
-	}
+	\mypage{Fiche chapitre 1}
  }
 
 
@@ -156,31 +142,46 @@
 
  \newcommand{\seancei}{
 	\mypage{
-		\begin{center}
-			\textbf{PLAN DE SEANCE :}
-		\end{center}
 
 		\begin{list}{$\bullet$}{}
-			\item RàNiv Correction Ex 3 bcd
-			\item RàNiv Ex4 abc
-			\item RàNiv Ex5 abc
-			\item RàNiv pb1
-			\item RàNiv pb3
+			\item RàNiv Correction Ex 3 bcd --- ok
+			\item RàNiv Ex4 a --- ok
 		\end{list}
 	}
  }
 
 
- \newcommand{\seancej}{
+
+ \newcommand{\seanceib}{
 	\mypage{
-		\begin{center}
-			\textbf{PLAN DE SEANCE :}
-		\end{center}
 
 		\begin{list}{$\bullet$}{}
-			\item Fiche chapitre 1
-			\item Exercice 5
+			\item RàNiv Correction Ex 3 bcd --- ok
+			\item RàNiv Ex4 a b --- ok
 		\end{list}
+
+		Devoir, exercice 4c
+	}
+ }
+
+
+
+ \newcommand{\seanceibb}{
+	\mypage{
+
+\begin{list}{$\bullet$}{}
+	\item Ex1
+	\item Ex2 cd
+	\item Ex3 bcd
+
+\end{list}
+	devoir Ex4a + impr une feuille zaccari
+	}
+ }
+
+ \newcommand{\seancej}{
+	\mypage{
+		Discussion respect
 	}
  }
 
@@ -199,26 +200,29 @@
 %	\setlength{\arrayrulewidth}{0.5mm}
 \setlength{\tabcolsep}{13pt}
 \renewcommand{\arraystretch}{2.5}
-\begin{longtable}{@{}|c|c|c|c|c|@{}} \toprule
-	Date        & Heure & Séance n° & Classe    & Contenu  \\\midrule
-	\midrule\multicolumn{5}{||c||}{SEMAINE 1}              \\\midrule\midrule
-	Lun 5 Sept  & 8h    & 1         & STI2D : B & \seancea \\\midrule
-	Lun 5 Sept  & 12h20 & 1         & 1GEN1     & \seanceb \\\midrule
-	Lun 5 Sept  & 15h30 & 1         & STI2D     & \seancec \\\midrule\midrule
-	Jeu 8 Sept  & 13h30 & 1         & 1GEN2     & \seanced \\\midrule
-	Jeu 8 Sept  & 14h30 & 1         & STI2D     & \seancee \\\midrule
-	Jeu 8 Sept  & 15h30 & 1         & STI2D : A & \seancef \\
-	            &       &           &           &          \\
+\begin{longtable}{@{}|c|c|c|c|l|@{}} \toprule
+	Date        & Heure & Séance n° & Classe     & Contenu                                        \\\midrule
+	\midrule\multicolumn{5}{||c||}{SEMAINE 1}                                                     \\\midrule\midrule
+	Lun 5 Sept  & 8h    & 1         & STI2D : B  & \seancea                                       \\\midrule
+	Lun 5 Sept  & 12h20 & 1         & 1GEN1      & \seanceb                                       \\\midrule
+	Lun 5 Sept  & 15h30 & 1         & STI2D      & \seancec                                       \\\midrule\midrule
+	Jeu 8 Sept  & 13h30 & 1         & 1GEN2      & \seanced                                       \\\midrule
+	Jeu 8 Sept  & 14h30 & 1         & STI2D      & \seancee                                       \\\midrule
+	Jeu 8 Sept  & 15h30 & 1         & STI2D : A  & \seancef                                       \\
+	            &       &           &            &                                                \\
 	% \midrule\multicolumn{5}{||c||}{ SEMAINE 2 }            \\\midrule\midrule
-	\midrule\multicolumn{5}{||c||}{ SEMAINE 2 }            \\\midrule\midrule
-	Lun 12 Sept & 8h    & 2         & STI2D : B & \seanceg \\\midrule
-	Lun 12 Sept & 11h20 & 2         & 1GEN2 : B & \seancei \\\midrule
-	Lun 12 Sept & 12h20 & 2         & 1GEN1 : B & \seancei \\\midrule
-	Lun 12 Sept & 15h30 & 2         & STI2D     & \seancej \\\midrule
-	Lun 12 Sept & 16h30 & 2         & 1GEN1 : A & \seancei \\\midrule
+	\midrule\multicolumn{5}{||c||}{ SEMAINE 2 }                                                   \\\midrule\midrule
+	Lun 12 Sept & 8h    & 2         & STI2D WARN & \seanceg                                       \\\midrule
+	Lun 12 Sept & 11h20 & 2         & 1GEN2 : B  & \seancei                                       \\\midrule
+	Lun 12 Sept & 12h20 & 2         & 1GEN1 : B  & \seanceib                                      \\\midrule
+	Lun 12 Sept & 15h30 & 2         & STI2D : B  & \seancej                                       \\\midrule
+	Lun 12 Sept & 16h30 & 2         & 1GEN1 : A  & \seanceibb                                     \\\midrule
 
+	Jeu 15 Sept &       & 2         & 1GEN2 : A  & Correction ex3 bcd + 4 abc                     \\\midrule
+	Jeu 15 Sept &       & 2         & DDA :   B  & Ex3 acd + Ex4 a  + Devoir Q6                   \\\midrule
+	Jeu 15 Sept &       & 2         & DDA :   A  & Ex3 acd ??+ Ex4 a?? + Fiche chap 1 + Devoir Q6 \\\midrule
 
-	% \bottomrule
+	\bottomrule
 \end{longtable}
 
 \end{document}

@@ -1,0 +1,148 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cleese Assignment (For Students)
+% LaTeX Template
+% Version 2.0 (27/5/2018)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Author:
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt]{article}
+\input{activite.sty} % Include the file specifying the document structure and custom commands
+% \usepackage{activite}
+%----------------------------------------------------------------------------------------
+%	ASSIGNMENT INFORMATION
+%----------------------------------------------------------------------------------------
+
+% Required
+\newcommand{\assignmentQuestionName}{Question} % The word to be used as a prefix to question numbers; example alternatives: Problem, Exercise
+\newcommand{\assignmentClass}{Physique Chimie} % Course/class
+\newcommand{\assignmentTitle}{Activité n°1:} % Assignment title or name
+\newcommand{\assignmentAuthorName}{Mme Cercy} %
+
+%----------------------------------------------------------------------------------------
+%	VARIABLES
+%----------------------------------------------------------------------------------------
+
+\newcommand{\titreActivite}{\huge TP 1: Loi des noeuds, loi des mailles, loi d'Ohm.} % titre de l'activité
+
+\begin{document}
+
+\date{}
+\title{\titreActivite}
+\maketitle % Print the title page
+
+% \vspace{-10pt}
+
+\begin{minipage}[c]{0.45\textwidth}
+	\begin{documentpeda}{Matériel par binôme}
+		\begin{list}{$\bullet$}{}
+			% \item Pile de 4,5 V ou de 9 V (6LR61)
+			\item Générateur de tension : 12 V
+			\item 1 multimètre
+			\item Fils de connexion
+			\item Interrupteur
+			\item Résistances : 2 × 220 $Ω$ et 2 × 470 $Ω$
+			\item 2 × DEL
+		\end{list}
+	\end{documentpeda}
+\end{minipage}
+\hspace{0.05\textwidth}
+\begin{minipage}[c]{0.45\textwidth}
+	\begin{center}
+		circuit 1 : \vspace{5pt}
+		\includegraphics[width=\columnwidth]{c1.png}
+	\end{center}
+\end{minipage}
+
+% \vspace{-10pt}
+
+\begin{documentpeda}{Caractéristiques et protection d’une diode}
+	\begin{minipage}[c]{0.75\textwidth}
+		La propriété essentielle
+		d’une diode est de ne laisser passer le courant électrique
+		que dans un seul sens (le sens passant). Lorsqu’elle émet un
+		rayonnement dans le visible, on l’appelle diode électroluminescente ou DEL.
+
+		La diode est un dispositif fragile. L’intensité du courant qui la traverse ne doit pas dépasser 20 mA.
+		Pour cette raison, on ajoute un résistor de protection en série avec la diode.
+	\end{minipage}
+	\hspace{0.05\textwidth}
+	\begin{minipage}[c]{0.2\textwidth}
+		\begin{center}
+			\includegraphics[width=\columnwidth]{carac.png}
+		\end{center}
+	\end{minipage}
+\end{documentpeda}
+
+\vspace{-10pt}
+
+\begin{question}
+	\questiontext{
+		Répondre aux questions suivantes pour le schéma du circuit 1:
+
+	}
+\end{question}
+\subquestion{Reproduire le schéma du montage et flécher les tensions $U_1$, $U_2$, $U_3$ et $U_4$ avec les bornes des résistances.}
+\subquestion{Déterminer le nombre de mailles du circuit, les nommer et donner le nom des noeuds électriques.}
+\subquestion{Réaliser le circuit en respectant les valeurs de résistances indiquées. Régler la tension du générateur sur 12 V.}
+\subquestion{Mesurer toutes les grandeurs tensions et intensités du montage à l'aide de l'appareil de mesure adapté. \textbf{Rassembler} les mesures dans un tableau.}
+\subquestion{Expliquer comment procéder pour vérifier que la loi des mailles et la loi des nœuds sont respéctés dans le circuit.}
+\subquestion{Procéder à la vérification.}
+\subquestion{En utilisant la loi d'Ohm, calculer les valeurs des résistances du circuit et les comparer avec les valeurs marquées sur celles-ci.}
+\subquestion{
+	Comment expliquer la diminution de luminosité de deux lampes
+	dans un montage en série par rapport à un montage en dérivation ?
+	Cette explication est-elle toujours valable dans le cas d'un générateur limité en intensité ?
+}
+\vspace{-15pt}
+
+
+\begin{question}
+	\questiontext{
+		Répondre aux questions suivantes pour le schéma du circuit 2:
+	} \vspace{-5pt}
+\end{question}
+
+%----------------------------------------------------------------------------------------
+%	QUESTION 
+%----------------------------------------------------------------------------------------
+% \vspace{-20pt}
+
+
+
+\subquestion{À l’aide de la caractéristique de la diode, indiquer la tension aux bornes de la DEL lorsqu’elle est traversée par un courant maximal de 20 mA.}
+\subquestion{À l’aide de la loi des mailles et de la loi d’Ohm, calculer la valeur minimale de la résistance de protection à placer en série avec la DEL pour une tension d’alimentation de 5 V.}
+\begin{minipage}[c]{0.65\textwidth}
+	\subquestion{Réaliser le montage avec une seule DEL et sa résistance de protection. Après vérification par le professeur, déterminer la puissance de chaque dipôle dans le circuit.}
+	\subquestion{Quel est le lien (calcul) entre ces puissances?}
+	\subquestion{Réaliser le montage complet du doc. 2 et refaire les mesures}
+	\subquestion{Trouver une relation d'égalité entre ces différentes puissances.}
+	\subquestion{indiquer comment évolue la puissance du générateur quand on augmente le nombre de dipôles dans le circuit.}
+\end{minipage}
+\hspace{0.05\textwidth}
+\begin{minipage}[c]{0.35\textwidth}
+	\begin{center}
+		circuit 2:
+
+		\includegraphics[width=\columnwidth]{c2.png}
+	\end{center}
+\end{minipage}
+% \subquestion{}
+% \subquestion{}
+% \subquestion{}
+% \subquestion{}
+
+
+\end{document}
