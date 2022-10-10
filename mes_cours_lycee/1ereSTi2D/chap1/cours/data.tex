@@ -1,0 +1,35 @@
+\newcommand{\myminipage}[1]{
+    \begin{minipage}[l]{0.45\textwidth}
+        \raggedright #1
+    \end{minipage}}
+
+\newcommand{\tableauProgramme}{
+    \renewcommand{\arraystretch}{1.5}
+    \begin{tabular}{@{}|l|l|@{}}
+        \multicolumn{2}{c}{Programme}                                                                                                                                                                                                                                                  \\ \toprule
+        Notions et contenu                                                 & Capacités exigibles                                                                                                                                                                                       \\ \midrule
+        \begin{minipage}[c]{0.45\textwidth}
+            \begin{itemize}
+                \item Grandeurs et unités.
+                \item Système international d’unités.
+            \end{itemize}
+        \end{minipage}
+                                                                           & \myminipage{ \begin{itemize}     \item Distinguer les notions de grandeur, valeur et unité.     \item Citer les sept unités de base du système international. \end{itemize} \vspace{5pt}
+        }
+
+        \\ \midrule
+
+        Sources d’erreurs.                                                 & \myminipage{Identifier les principales sources d’erreurs lors d’une mesure}                                                                                                                               \\
+
+        Variabilité de la mesure d’une grandeur physique.                  &                                                                                                                                                                                                           \\
+        Justesse et fidélité.                                              & \myminipage{Exploiter des séries de mesures indépendantes (histogramme, moyenne et écart-type) pour comparer plusieurs méthodes de mesure d’une grandeur physique, en termes de justesse et de fidélité.} \\
+        \phantom{}                                                         & \phantom{}                                                                                                                                                                                                \\
+        Dispersion des mesures, incertitude-type sur une série de mesures. & \myminipage{Procéder à une évaluation par une approche statistique (type A) d’une incertitude-type.
+
+        Estimer une incertitude-type sur une mesure unique.}                                                                                                                                                                                                                           \\                                                                                        \\
+        Écriture d’un résultat.                                            & \myminipage{Exprimer un résultat de mesure avec le nombre de chiffres significatifs adaptés et l’incertitude-type associée et en indiquant l’unité correspondante.    }                                   \\
+        \phantom{}                                                         & \phantom{}                                                                                                                                                                                                \\
+        Valeur de référence.                                               & \myminipage{Discuter de la validité d’un résultat en comparant la différence entre le résultat d’une mesure et la valeur de référence d’une part et l’incertitude-type d’autre part.}                     \\
+        \bottomrule
+    \end{tabular}
+}

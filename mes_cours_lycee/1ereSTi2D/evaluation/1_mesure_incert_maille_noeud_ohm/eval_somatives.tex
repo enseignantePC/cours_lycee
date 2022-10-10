@@ -1,0 +1,103 @@
+\documentclass[11pt]{exam}		%Doc : https://mirrors.ircam.fr/pub/CTAN/macros/latex/contrib/exam/examdoc.pdf
+
+% \printanswers					%Comment this line to hide the answers 
+
+\pointpoints{point}{points}
+\addpoints
+
+\input{structure.tex}
+\usepackage{booktabs}
+\usepackage{enumitem}
+
+%----------------------------------------------------------------------------------------
+%	REQUIRED
+%----------------------------------------------------------------------------------------
+\newcommand{\Titre}{Électricité} % 
+\newcommand{\ConsignesGenerales}{
+	\begin{list}{$\bullet$}{}
+		\item Noter nom et prénom et classe en haut à gauche de la page.
+		\item Répondre aux questions par des phrases \textbf{au dos de cette page}.
+		\item Essayer de répondre à toutes les questions.
+		\item Ne pas perdre trop de temps si on ne comprends pas une question : passer à la suite pour avoir un maximum de points! 
+	\end{list}
+	% \begin{itemize}
+	% 	% \item Ne pas se décourager :)
+	% 	\vspace{-5pt}
+	% \end{itemize}
+	}
+
+\title{\Titre}
+\begin{document}
+\thispagestyle{headandfoot}
+
+\section{\Titre} % peut faire une partie d'un gros examen
+
+\headrule
+\footrule
+\setlength{\columnsep}{0.25cm}
+\setlength{\columnseprule}{1pt}
+
+\consignes
+
+%----------------------------------------------------------------------------------------
+%	EDIT QUESTIONS HERE
+%----------------------------------------------------------------------------------------
+% \begin{center}
+% 	{\huge Partie cours}
+% \end{center}
+
+
+\begin{questions}
+	\question[1] Quelles sont les 7 unités de base du Système International ?
+
+	\question[1\half] Écrire correctement le résultat des mesurages suivants (sous la forme $grandeur \pm incertitude$)
+	\begin{enumerate}[label=\alph*)]
+		\item 	Avec une règle, on mesure $l = 100.005 cm$. L'incertitude-type de lecture vaut $u_{lecture}= 1 cm$ .
+		\item 	Avec une balance, on pèse $m = 0,896 g$. L'incertitude-type de résolution vaut $u_{res}=0,02 g$ .
+		\item 	On mesure une tension $U = 12,05 V$. L'incertitude-type de précision vaut $u_{pre} =0,01V$
+	\end{enumerate}
+
+	\question[2\half]
+	On mesure avec un ampèremètre :  $i=(23,9 ± 0,2) mA$
+	\begin{multicols}{2}
+		\begin{enumerate}[label=\alph*)]
+			\item Quelle est la grandeur mesurée?
+			\item Quelle est la valeur mesurée?
+			\item Quelle est l'unité de la valeur mesurée?
+			\item Que vaut l'incertitude?
+			\item Combien y a-t-il de chiffre significatif sur la mesurage ? Sur l'incertitude ?
+		\end{enumerate}
+	\end{multicols}
+
+	\begin{minipage}[c]{0.6\textwidth}
+		\question[3] À l'aide d'un voltmètre nous avons fais les mesures suivantes.
+
+		\textbf{Déterminer} la valeur de la somme $\sum_{i=1}^6 ({U_i} - {U_\text{moyen}})^2$.
+		\begin{center}
+			\begin{tabular}{@{}|l|llllll|@{}} \toprule
+				Mesure n°      & 1    & 2    & 3    & 4    & 5    & 6    \\
+				Tension (Volt) & 12.0 & 12.0 & 11.9 & 11.9 & 12.1 & 12.1 \\\bottomrule
+			\end{tabular}
+		\end{center}
+		% \begin{itemize}
+		% \item Déterminer la valeur de sigma $\sigma = \sqrt{\frac{1}{n}\sum_{i=1}^n ({m_i} - {\overline{m}})^2}$
+		% \item Déterminer la valeur de $\text{U}(X) = \mathrm{2}\dfrac{\sigma }{\sqrt{{n}} }$
+		% \end{itemize}
+
+		\question[2] Appliquer la loi des mailles sur la maille (ABCFA) dans le circuit suivants \textbf{en rédigeant correctement}.
+
+	\end{minipage}
+	\hspace{0.05\textwidth}
+	\begin{minipage}[c]{0.2\textwidth}
+		\includegraphics[scale=0.4]{c1.png}
+	\end{minipage}
+\end{questions}
+
+
+\clearpage
+
+\answerbox{25}{}
+
+\countpoint
+
+\end{document}

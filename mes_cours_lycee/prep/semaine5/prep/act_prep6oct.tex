@@ -1,0 +1,82 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cleese Assignment (For Students)
+% LaTeX Template
+% Version 2.0 (27/5/2018)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Author:
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt]{article}
+\input{prep.sty} % Include the file specifying the document structure and custom commands
+% \usepackage{activite}
+
+\newcommand{\mypage}[1]{ 
+		\begin{minipage}[c]{0.45\textwidth}
+			\vspace{5pt}
+			{#1}
+			\vspace{5pt}
+		\end{minipage}
+}
+
+\newcommand{\seancea}{\mypage{ ANNULÉ :
+	corriger ex1
+	+ ex2 + ???
+	}}
+\newcommand{\seanceb}{\mypage{ANNULÉ : évaluation CS + ecriture scientifique + conversions + élec}}
+\newcommand{\seancec}{\mypage{ANNULÉ : TP qf, partie 2 + ex56}}
+\newcommand{\seanced}{\mypage{TP partie 2 + ex56}}
+
+\newcommand{\seancee}{\mypage{Ex2 + suite??}}
+\newcommand{\seancef}{\mypage{Ex5678 plus suite}}
+\newcommand{\seanceg}{\mypage{Ex2 + suite??}}
+\newcommand{\seanceh}{\mypage{}}
+\newcommand{\seancei}{\mypage{}}
+% \newcommand{\seancej}{	\mypage{feuille zaccari + chap 1 act1}}
+
+
+
+\usepackage{longtable}
+
+
+
+\begin{document}
+\begin{center}
+	\textbf{CAHIER DE TEXTE}
+\end{center}
+
+%	\setlength{\arrayrulewidth}{0.5mm}
+\setlength{\tabcolsep}{13pt}
+\renewcommand{\arraystretch}{2.5}
+\begin{longtable}{@{}|c|c|c|c|@{}} \toprule
+	% Date        & Heure & Séance n° & Classe    & Contenu  \\\midrule
+	\midrule\multicolumn{4}{||c||}{SEMAINE 5}                       \\\midrule
+	\multicolumn{4}{|l|}{une X : Saker ; Rodrigo ;Youssef ; Danyal} \\\midrule
+	\multicolumn{4}{|l|}{punition : Corentin}                       \\\midrule
+	Jeu 6 Oct  & 13h29 & 1GEN2     & \seancea                       \\\midrule
+	Jeu 6 Oct  & 14h24 & STI2D     & \seanceb                       \\\midrule
+	Jeu 6 Oct  & 15h23 & STI2D : A & \seancec                       \\\midrule\midrule
+	Lun 10 Oct & 8h14  & STI2D : B & \seanced                       \\\midrule
+	Lun 10 Oct & 11h17 & 1GEN2 : B & \seanced                       \\\midrule
+	Lun 10 Oct & 12h16 & 1GEN1 : B & \seancee                       \\\midrule
+	Lun 10 Oct & 15h33 & STI2D     & \seancef                       \\\midrule
+	Lun 10 Oct & 16h32 & 1GEN1 : A & \seanceg                       \\\midrule
+	% &       &           &            &            \\
+
+
+	\bottomrule
+\end{longtable}
+
+\end{document}
+
