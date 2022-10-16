@@ -1,0 +1,29 @@
+Indiquez les grandeurs représentées en abscisses et en ordonnées du diagramme.
+
+
+2. Associez à chaque type de désintégration, le noyau fils formé, et justifiez.
+
+    Désintégration de type α
+    Sélectionner une réponse
+
+Désintégration de type β−
+Sélectionner une réponse
+Désintégration de type β+
+Sélectionner une réponse
+
+3. Attribuez à chacune des équations le type de désintégration qui lui correspond et justifiez :
+
+a. ZA​X→Z-2A-4​Y+24​He
+
+b. ZA​X→Z+1A​Y+−10​e−
+
+c. ZA​X→Z-1A​Y+10​e+
+
+
+4. Le plutonium 244 a été identifié dans des météorites anciennes, laissant penser qu'il a été créé au cours de la formation du système solaire. C'est un élément radioactif qui peut se désintégrer. Le noyau fils obtenu peut à son tour se désintégrer. La chaîne de désintégration permet d'obtenir un isotope stable. Le tableau présente quelquesuns des isotopes de la chaîne de désintégration. Recopiez et complétez les équations de désintégration de quelques noyaux radioactifs issus de la désintégration du plutonium 244.
+
+    94244​Pu→92240​...+......​He, désintrégration de type ...
+
+92240​...→...240​Np+−10​e−, désintrégration de type ...
+...240​Np→94...​...+−10​e−, désintrégration de type ...
+94...​...→92236​U+......​..., désintrégration de type ... 

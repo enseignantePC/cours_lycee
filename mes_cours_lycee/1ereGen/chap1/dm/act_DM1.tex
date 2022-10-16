@@ -1,0 +1,54 @@
+\documentclass[11pt]{exam}		%Doc : https://mirrors.ircam.fr/pub/CTAN/macros/latex/contrib/exam/examdoc.pdf
+
+% \printanswers					%Comment this line to hide the answers 
+
+\pointpoints{point}{points}
+\addpoints
+
+\input{structure.tex}
+\usepackage{booktabs}
+\usepackage{enumitem}
+
+%----------------------------------------------------------------------------------------
+%	REQUIRED
+%----------------------------------------------------------------------------------------
+\newcommand{\Titre}{Radioactivité} % 
+\newcommand{\ConsignesGenerales}{
+	\begin{list}{$\bullet$}{}
+		\item Rendre le travail sur une feuille avec nom, prénom et classe
+		\item Répondre par des phrases
+	\end{list}
+	}
+
+\title{\Titre}
+\begin{document}
+\thispagestyle{headandfoot}
+
+\section{\Titre} % peut faire une partie d'un gros examen
+
+\headrule
+\footrule
+\setlength{\columnsep}{0.25cm}
+\setlength{\columnseprule}{1pt}
+
+\consignes
+
+\begin{center}
+	\includegraphics[scale=0.5]{ex1.png}
+\end{center}
+
+
+\begin{center}
+	\includegraphics[scale=0.4]{ex2.png}
+\end{center}
+
+
+\begin{center}
+	\includegraphics[scale=0.4]{ex_datationC14.png}
+\end{center}
+
+
+% \clearpage
+
+
+\end{document}

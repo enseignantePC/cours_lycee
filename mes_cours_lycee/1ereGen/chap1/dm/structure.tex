@@ -1,0 +1,168 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\usepackage{lastpage} % Required to determine the last page number for the footer
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}      %Originally for french document, change to english or relevant language
+
+\usepackage{amsmath,amssymb}
+\usepackage{multicol}
+\usepackage[dvipsnames,svgnames]{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{fadings}
+\usetikzlibrary{calc}
+
+\usepackage{tkz-tab}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.17}
+
+
+\usepackage{multido} % required for answerbox
+\usepackage[most]{tcolorbox} % Required for boxes that split across pages
+
+%----------------------------------------------------------------------------------------
+%	MARGINS
+%----------------------------------------------------------------------------------------
+
+\usepackage{geometry} % Required for adjusting page dimensions and margins
+
+\geometry{
+	paper=a4paper, % Change to letterpaper for US letter
+	top=1.8cm, % Top margin
+	bottom=2.5cm, % Bottom margin
+	left= 1cm, % Left margin
+	right=1cm, % Right margin
+	headheight=14pt, % Header height
+	footskip=1.4cm, % Space from the bottom margin to the baseline of the footer
+	headsep=14pt, % Space from the top margin to the baseline of the header
+	%showframe, % Uncomment to show how the type block is set on the page
+}
+
+%----------------------------------------------------------------------------------------
+%	FONT
+%----------------------------------------------------------------------------------------
+\usepackage{fontspec}
+\usepackage{unicode-math}
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+
+% \usepackage[sfdefault,light]{roboto} % Use the Roboto font
+\setmainfont[Ligatures=TeX]{Caladea}
+
+%----------------------------------------------------------------------------------------
+%	HEADERS AND FOOTERS
+%----------------------------------------------------------------------------------------
+
+
+%Format Header and footer
+\pagestyle{headandfoot}
+\header{
+	\begin{minipage}[c]{5cm}
+		Physique Chimie -- Mme Cercy
+	\end{minipage} \vspace{6pt}
+}{\Large\textbf{DM 1 \vspace{6pt}}}{
+	% \begin{minipage}[c]{8cm}
+	% 	\begin{itemize}
+	% 		\item Classe : \dotfill \vspace{5pt}
+	% 		\item  Nom et prénom: \dotfill
+	% 	\end{itemize}
+	% \end{minipage}\vspace{1pt}
+	% \hspace{30pt}
+}
+\headrule
+\footrule
+\setlength{\columnsep}{0.25cm}
+\setlength{\columnseprule}{1pt}
+\footer{}{ Page \thepage \hphantom s sur \pageref{LastPage} }{}
+% \extrafootheight{-2cm}
+
+\pagestyle{plain}
+
+% Change section command behavior
+\usepackage{titlesec}
+% \titleformat{\section}[frame]{\Huge\bfseries\filright}{}{2mm}{\centering Devoir surveillé: }
+
+\titleformat
+{\section} % Section type being modified
+[frame] % Shape type, can be: hang, block, display, runin, leftmargin, rightmargin, drop, wrap, frame
+{\Huge\bfseries\filright} % Format of the whole section
+{} % Format of the section label
+{6pt} % Space between the title and label
+{\centering DM: } % Code before the label
+
+
+\usepackage{titling} % Allows custom title configuration
+
+
+
+\pretitle{
+	\vspace{200pt} % Move the entire title section up
+}
+
+
+% \titlespacing{\section}{0pt}{0.5\baselineskip}{0.5\baselineskip} % Spacing around section titles, the order is: left, before and after
+
+
+
+% Add a watermark if answers are shown
+\ifprintanswers
+	\usepackage{draftwatermark}
+	\SetWatermarkColor{red!30}
+	\SetWatermarkScale{1.1}
+	\SetWatermarkText{Correction}     %Watermark text
+\fi
+
+
+\newcommand{\answerbox}[2]{
+	\ifprintanswers
+		\begin{center}
+			\color{DarkRed}
+			\textbf{\textit{#2}}
+		\end{center}
+
+	\else
+		\begin{tcolorbox}[breakable, enhanced]
+			% \vphantom{L}
+			% \vspace{\numexpr #1-1\relax\baselineskip} % \vphantom{L} to provide a typesetting strut with a height for the line, \numexpr to subtract user input by 1 to make it 0-based as this command is
+			\vspace{15pt}
+			\multido{}{#1}{\noindent\makebox[\linewidth]{\dotfill}
+				\endgraf\vspace{12pt}}% ... dotted lines ...
+			\vspace{-13pt}
+		\end{tcolorbox}
+	\fi
+}
+
+\renewcommand*\half{.5}
+
+\newcommand{\consignes}{
+	\begin{center}
+		\begin{tcolorbox}[
+				title=Consignes,
+				% sidebyside,
+				colback=red!5!white,
+				colframe=red!75!black,
+				colbacktitle=yellow!30!red!50!white,
+				coltitle=red!25!black,
+				fonttitle=\bfseries,
+				subtitle style={boxrule=0.4pt,
+						colback=yellow!50!red!25!white} ]
+			\ConsignesGenerales
+
+			% \tcblower
+
+			% \tcbincludegraphics[height=3.5cm, size=tight, colframe=red, boxrule=1pt, arc=10pt, auto outer arc, clip upper]{logo.png}
+
+		\end{tcolorbox}
+	\end{center}
+}
+
+\newcommand{\countpoint}{
+	\vfill
+	\begin{center}
+		\setlength{\doublerulesep}{0.25in}
+		\multirowgradetable{1}[questions]
+		\vspace{-25pt}
+	\end{center}}
