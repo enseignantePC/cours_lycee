@@ -5,25 +5,26 @@
 \pointpoints{point}{points}
 \addpoints
 
+\newcommand{\evalnumber}{Évaluation 2}
+\newcommand{\evaltitle}{DS: Électricité}
+\newcommand{\nbpoint}{10 pt}
+
 \input{structure.tex}
 \usepackage{booktabs}
-
+\usepackage{enumitem}
 
 %----------------------------------------------------------------------------------------
 %	REQUIRED
 %----------------------------------------------------------------------------------------
-\newcommand{\Titre}{Électricité} % 
+\newcommand{\Titre}{} % 
 \newcommand{\ConsignesGenerales}{
-	
-	\begin{itemize}
+	\begin{list}{$\bullet$}{}
 		\item Noter nom et prénom et classe en haut à gauche de la page.
-		\item Répondre aux questions par des phrases.
+		\item Répondre aux questions par des phrases \textbf{au dos de cette page}.
 		\item Essayer de répondre à toutes les questions.
-		\item Ne pas perdre trop de temps si on ne sait pas/comprends 
-		pas et passer à la suite pour avoir un maximum de points! 
-		% \item Ne pas se décourager :)
-		\vspace{-5pt}
-	\end{itemize}}
+		\item Ne pas perdre trop de temps si on ne comprends pas une question : passer à la suite pour avoir un maximum de points! 
+	\end{list}
+}
 
 \title{\Titre}
 \begin{document}
@@ -38,45 +39,12 @@
 
 \consignes
 
-%----------------------------------------------------------------------------------------
-%	EDIT QUESTIONS HERE
-%----------------------------------------------------------------------------------------
-% \begin{center}
-% 	{\huge Partie cours}
-% \end{center}
-
 
 \begin{questions}
 	\question[1] Quelles sont les 7 unités de base du Système International ?
-	\answerbox{1}{}
-
-	\question[1] Écrire correctement le résultat des mesurages suivants
-	\begin{itemize}
-		\item 	Avec une règle, on mesure $l = 90,5 cm$. L'incertitude-type de lecture vaut $u_{lecture}= 1 cm$ .
-		\item 	Avec une balance, on pèse $m = 0,896 g$. L'incertitude-type de résolution vaut $u_{res}=0,02 g$ .
-		\item 	On mesure une tension $U = 12,05 V$. L'incertitude-type de précision vaut $u_{pre} =0,01V$
-	\end{itemize}
-
-	\question[1]
-	On mesure avec une balance :  $m=(475.21 ± 0.03) μg$
-	{Quelle est la grandeur mesurée?}
-		{Quelle est la valeur mesurée?}
-		{Quelle est l'unité de la valeur mesurée?}
-		{Que vaut l'incertitude?}
-		{Combien y a-t-il de chiffre significatif sur la mesurage ? Sur l'incertitude ?}
-
-	\question[1] \phantom{}
-	\begin{center}
-		\begin{tabular}{@{}|l|llllll|@{}} \toprule
-			Mesure n° & 1 & 2 & 3 & 4 & 5 & 6 \\
-		\end{tabular}
-	\end{center}
-
-	\question[1] Électricité
-
 \end{questions}
 
-\countpoint
 
+\countpoint
 
 \end{document}

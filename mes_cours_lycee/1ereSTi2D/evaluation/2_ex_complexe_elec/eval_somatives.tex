@@ -1,0 +1,79 @@
+\documentclass[11pt]{exam}		%Doc : https://mirrors.ircam.fr/pub/CTAN/macros/latex/contrib/exam/examdoc.pdf
+
+% \printanswers					%Comment this line to hide the answers 
+
+\pointpoints{point}{points}
+\addpoints
+
+\newcommand{\evalnumber}{Évaluation 2}
+\newcommand{\evaltitle}{DS: Électricité}
+\newcommand{\nbpoint}{20 pt}
+
+\input{structure.tex}
+\usepackage{booktabs}
+\usepackage{enumitem}
+
+%----------------------------------------------------------------------------------------
+%	REQUIRED
+%----------------------------------------------------------------------------------------
+\newcommand{\Titre}{} % 
+\newcommand{\ConsignesGenerales}{
+	\begin{list}{$\bullet$}{}
+		\item Noter nom et prénom et classe en haut à gauche de la page.
+		\item Répondre aux questions par des phrases \textbf{au dos de cette page}.
+		\item Essayer de répondre à toutes les questions.
+		\item Ne pas perdre trop de temps si on ne comprends pas une question : passer à la suite pour avoir un maximum de points! 
+	\end{list}
+}
+
+\title{\Titre}
+\begin{document}
+\thispagestyle{headandfoot}
+
+\section{\Titre} % peut faire une partie d'un gros examen
+
+\headrule
+\footrule
+\setlength{\columnsep}{0.25cm}
+\setlength{\columnseprule}{1pt}
+
+\consignes
+
+
+
+\begin{questions}
+	\question[1] Un point est apporté au soin de la copie.
+	\question[2] Annoter le circuit suivant en ajoutant $U_G$, $U_R$, $U_{R1}$, $U_{R2}$, les tensions aux bornes des dipôles.
+
+	\begin{center}
+		\includegraphics[scale = 2]{c1.png}
+	\end{center}
+
+	\question[3] Appliquer la loi des mailles sur chacune des trois mailles du circuit.
+	\answerbox{3}{}
+
+	\question[1] Appliquer la loi des n\oe uds en B.
+	\answerbox{1}{}
+	\clearpage
+	\question[3] Appliquer la loi d'ohm sur chacune des résistances.
+	\answerbox{3}{}
+
+	\begin{center}
+		\textbf{	Pour les questions suivantes on considère que :
+		}
+		\vspace{-5pt}
+		$$U_G=10V \text{\phantom{a} et \phantom{a} } U_{R2}=4V \text{\phantom{a} et \phantom{a} }R_1=250\text{  ohm }\text{\phantom{a} et \phantom{a} }R_2=100\text{ ohm }\text{\phantom{a} et \phantom{a} }I_1=16\text{mA}$$
+	\end{center}
+	\question[3] Déterminer la valeur de $U_{R1}$
+	\answerbox{5}{}
+	\question[3] Déterminer la valeur de $I$
+	\answerbox{5}{}
+	\question[4] Déterminer la valeur de $R$
+	\answerbox{6}{}
+
+\end{questions}
+
+
+\countpoint
+
+\end{document}

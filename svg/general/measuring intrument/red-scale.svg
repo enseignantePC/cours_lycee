@@ -1,0 +1,469 @@
+<?xml version="1.0"?>
+<svg
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    id="svg3089"
+    viewBox="0 0 322.11 412.17"
+    version="1.1"
+  >
+  <defs
+      id="defs3091"
+    >
+    <radialGradient
+        id="radialGradient3971"
+        gradientUnits="userSpaceOnUse"
+        cy="757.4"
+        cx="977.26"
+        gradientTransform="matrix(8.5528 -.91122 .25838 2.4252 -8201.1 -611.8)"
+        r="30.776"
+      >
+      <stop
+          id="stop5207"
+          stop-color="#fff"
+          stop-opacity=".36869"
+          offset="0"
+      />
+      <stop
+          id="stop5209"
+          stop-color="#fff"
+          stop-opacity=".13636"
+          offset="1"
+      />
+    </radialGradient
+    >
+    <radialGradient
+        id="radialGradient3997"
+        gradientUnits="userSpaceOnUse"
+        cy="767.54"
+        cx="976.38"
+        gradientTransform="matrix(8.6012 0 0 8.6012 -8052.7 -5976.7)"
+        r="13.745"
+      >
+      <stop
+          id="stop5122"
+          stop-color="#dadada"
+          offset="0"
+      />
+      <stop
+          id="stop5124"
+          stop-color="#a0a0a0"
+          offset="1"
+      />
+    </radialGradient
+    >
+    <radialGradient
+        id="radialGradient4002"
+        gradientUnits="userSpaceOnUse"
+        cy="757.4"
+        cx="977.26"
+        gradientTransform="matrix(8.5528 -.91122 .25838 2.4252 -8201.1 -618.43)"
+        r="30.776"
+      >
+      <stop
+          id="stop5195"
+          stop-opacity=".36869"
+          offset="0"
+      />
+      <stop
+          id="stop5197"
+          stop-opacity=".13636"
+          offset="1"
+      />
+    </radialGradient
+    >
+    <linearGradient
+        id="linearGradient4007"
+        x1="945.16"
+        gradientUnits="userSpaceOnUse"
+        y1="766.85"
+        gradientTransform="matrix(8.6012 0 0 8.6012 -8052.7 -5976.7)"
+        x2="1007.3"
+        y2="766.85"
+      >
+      <stop
+          id="stop5227"
+          stop-color="#bf0000"
+          offset="0"
+      />
+      <stop
+          id="stop5229"
+          stop-color="#cb4141"
+          offset="1"
+      />
+    </linearGradient
+    >
+  </defs
+  >
+  <g
+      id="layer1"
+      transform="translate(-183.03 -441.66)"
+    >
+    <g
+        id="g4342"
+        transform="matrix(.60271 0 0 .60271 136.78 308.98)"
+      >
+      <path
+          id="path5223"
+          fill="url(#linearGradient4007)"
+          d="m611.01 764.16c-11.34-180.13-107.41-376.98-258.6-429.94-184.06 75.2-285.75 269.13-274.77 443.5 10.968 174.37 544.7 166.57 533.37-13.56z"
+      />
+      <path
+          id="path5603"
+          fill="#d40000"
+          d="m606.73 751.12c-11.24-168.1-106.56-351.81-256.57-401.24-182.62 70.19-283.5 251.17-272.62 413.89 10.891 162.73 540.44 155.45 529.19-12.65z"
+      />
+      <path
+          id="path5601"
+          fill="#a3a3a3"
+          d="m606.74 265.02c-11.25 57.71-89.04 141.32-256.58 137.73s-283.5-86.21-272.62-142.07c10.891-55.86 540.44-53.36 529.2 4.34z"
+      />
+      <path
+          id="path5191"
+          fill="url(#radialGradient4002)"
+          d="m605.21 269.63c0.40426-1.5116 1.3186-3.0642 1.6119-4.5694 0.7053-3.6063-0.76551-7.0397-4.0314-10.214-3.2633-3.1743-8.3398-6.1293-15.052-8.87-13.425-5.4814-33.404-9.9703-57.521-13.708-24.117-3.7379-52.385-6.6192-83.056-8.6012s-63.678-3.2804-96.764-3.4942c-33.086-0.21417-66.208 0.58402-97.57 2.1503-31.362 1.5666-61.049 3.8978-86.55 7.2573-25.5 3.3595-46.859 7.7372-62.359 12.902-7.7499 2.5823-14.073 5.2965-18.546 8.3324-4.4738 3.0359-7.1145 6.4541-7.7949 9.9452 73.438 46.608 207.57 72.573 341.36 60.746 79.277-7.0078 143.34-26.215 186.27-51.876z"
+      />
+      <path
+          id="path4294"
+          opacity=".99"
+          transform="matrix(9.4688 0 0 9.6868 -8931.2 -6815.1)"
+          fill="#aeaeae"
+          d="m992.28 769.09c0 7.7464-6.2797 14.026-14.026 14.026-7.7464 0-14.026-6.2797-14.026-14.026 0-7.7464 6.2797-14.026 14.026-14.026 7.7464 0 14.026 6.2797 14.026 14.026z"
+      />
+      <path
+          id="path5074"
+          opacity=".99"
+          style="block-progression:tb;color:#000000;text-transform:none;text-indent:0"
+          fill="#d9d9d9"
+          d="m341.82 494.81c-73.136 0-132.78 59.645-132.78 132.78 0 73.136 59.645 132.78 132.78 132.78 73.136 0 132.78-59.645 132.78-132.78 0-73.136-59.645-132.78-132.78-132.78z"
+      />
+      <path
+          id="path4296"
+          opacity=".99"
+          style="block-progression:tb;color:#000000;text-transform:none;text-indent:0"
+          fill="url(#radialGradient3997)"
+          d="m345.36 506.83c65.453 0 118.22 52.769 118.22 118.22 0 65.453-52.769 118.22-118.22 118.22-65.453 0-118.22-52.769-118.22-118.22 0-65.453 52.769-118.22 118.22-118.22z"
+      />
+      <path
+          id="path5201"
+          fill="url(#radialGradient3971)"
+          d="m605.21 276.25c0.40426-1.5116 1.3186-3.0642 1.6119-4.5694 0.7053-3.6063-0.76551-7.0397-4.0314-10.214-3.2633-3.1743-8.3398-6.1293-15.052-8.87-13.425-5.4814-33.404-9.9703-57.521-13.708-24.117-3.7379-52.385-6.6192-83.056-8.6012s-63.678-3.2804-96.764-3.4942c-33.086-0.21417-66.208 0.58402-97.57 2.1503-31.362 1.5666-61.049 3.8978-86.55 7.2573-25.5 3.3595-46.859 7.7372-62.359 12.902-7.7499 2.5823-14.073 5.2966-18.546 8.3324-4.4738 3.0359-7.1145 6.4541-7.7949 9.9452 73.438 46.608 207.57 72.573 341.36 60.746 79.277-7.0078 143.34-26.215 186.27-51.876z"
+      />
+      <path
+          id="path5076"
+          stroke="#000"
+          stroke-width="2.7846px"
+          fill="none"
+          d="m252.54 614.46h22.229"
+      />
+      <path
+          id="path5078"
+          stroke="#000"
+          stroke-width="3.0593px"
+          fill="none"
+          d="m350.58 526.09 1.3455 26.831"
+      />
+      <path
+          id="path5080"
+          stroke="#000"
+          stroke-width="2.7846px"
+          fill="none"
+          d="m413.3 614.46h22.229"
+      />
+      <path
+          id="path5082"
+          stroke="#000"
+          stroke-width="3.0593px"
+          fill="none"
+          d="m347.88 697.19 1.3455 26.831"
+      />
+      <path
+          id="path5084"
+          stroke="#000"
+          stroke-width="2.7846px"
+          fill="none"
+          d="m282.72 552.45 16.507 15.718"
+      />
+      <path
+          id="path5086"
+          stroke="#000"
+          stroke-width="3.0593px"
+          fill="none"
+          d="m416.78 556.14-18.021 18.973"
+      />
+      <path
+          id="path5088"
+          stroke="#000"
+          stroke-width="2.7846px"
+          fill="none"
+          d="m404.41 664.76 19.83 11.074"
+      />
+      <path
+          id="path5090"
+          stroke="#000"
+          stroke-width="3.0593px"
+          fill="none"
+          d="m294.87 675.43-18.021 18.973"
+      />
+      <path
+          id="path5092"
+          stroke="#000"
+          stroke-width="2.7846px"
+          fill="none"
+          d="m306.56 538.05 11.133 19.781"
+      />
+      <path
+          id="path5094"
+          stroke="#000"
+          stroke-width="3.0593px"
+          fill="none"
+          d="m432.65 574.41-23.262 12.241"
+      />
+      <path
+          id="path5096"
+          stroke="#000"
+          stroke-width="3.6119px"
+          fill="none"
+          d="m387.51 681.51 15.62 23.36"
+      />
+      <path
+          id="path5098"
+          stroke="#000"
+          stroke-width="3.0593px"
+          fill="none"
+          d="m283.4 665.54-23.262 12.241"
+      />
+      <path
+          id="path5100"
+          stroke="#000"
+          stroke-width="2.7846px"
+          fill="none"
+          d="m259.2 589.47 20.878 8.7386"
+      />
+      <path
+          id="path5102"
+          stroke="#000"
+          stroke-width="2.8009px"
+          fill="none"
+          d="m380.88 532.88-8.7572 22.109"
+      />
+      <path
+          id="path5104"
+          stroke="#000"
+          stroke-width="2.7846px"
+          fill="none"
+          d="m411.84 650.05 20.878 8.7386"
+      />
+      <path
+          id="path5106"
+          stroke="#000"
+          stroke-width="3.0593px"
+          fill="none"
+          d="m332 694.15-3.3524 26.42"
+      />
+      <path
+          id="path5108"
+          stroke="#000"
+          stroke-width="2.7846px"
+          fill="none"
+          d="m326.43 529.43 7.3706 21.317"
+      />
+      <path
+          id="path5110"
+          stroke="#000"
+          stroke-width="3.0593px"
+          fill="none"
+          d="m438.21 592.91-25.349 7.6062"
+      />
+      <path
+          id="path5112"
+          stroke="#000"
+          stroke-width="3.0178px"
+          fill="none"
+          d="m378.26 688.95 7.5572 25.038"
+      />
+      <path
+          id="path5114"
+          stroke="#000"
+          stroke-width="3.0593px"
+          fill="none"
+          d="m277.59 646.48-25.349 7.6061"
+      />
+      <path
+          id="path5116"
+          stroke="#000"
+          stroke-width="2.7846px"
+          fill="none"
+          d="m268.39 570.75 17.801 14.217"
+      />
+      <path
+          id="path5118"
+          stroke="#000"
+          stroke-width="2.7846px"
+          fill="none"
+          d="m418.2 632.88 22.196 2.7575"
+      />
+      <path
+          id="path5128"
+          stroke="#000"
+          stroke-width="2.8508"
+          fill="none"
+          d="m380.54 584.55-35.257 40.014"
+      />
+      <path
+          id="path5211"
+          stroke="#000"
+          stroke-width="3.0593px"
+          fill="none"
+          d="m304.81 683.8-14.188 22.046"
+      />
+      <path
+          id="path5213"
+          stroke="#000"
+          stroke-width="3.0593px"
+          fill="none"
+          d="m276.63 629.68-26.159 4.793"
+      />
+      <path
+          id="path5215"
+          stroke="#000"
+          stroke-width="3.0593px"
+          fill="none"
+          d="m320.32 691.23-9.9336 24.401"
+      />
+      <path
+          id="path5217"
+          stroke="#000"
+          stroke-width="3.0593px"
+          fill="none"
+          d="m399.79 540.14-15.01 21.48"
+      />
+      <path
+          id="path5219"
+          stroke="#000"
+          stroke-width="3.0593px"
+          fill="none"
+          d="m365.91 695.3 5.1322 26.561"
+      />
+      <path
+          id="path5221"
+          stroke="#000"
+          stroke-width="2.7846px"
+          fill="none"
+          d="m399.1 675.29 17.901 14.088"
+      />
+    </g
+    >
+  </g
+  >
+  <metadata
+    >
+    <rdf:RDF
+      >
+      <cc:Work
+        >
+        <dc:format
+          >image/svg+xml</dc:format
+        >
+        <dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        />
+        <cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        />
+        <dc:publisher
+          >
+          <cc:Agent
+              rdf:about="http://openclipart.org/"
+            >
+            <dc:title
+              >Openclipart</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:publisher
+        >
+        <dc:title
+          >Red analog scale</dc:title
+        >
+        <dc:date
+          >2013-08-01T17:31:35</dc:date
+        >
+        <dc:description
+          >An image of an analog scale.</dc:description
+        >
+        <dc:source
+          >https://openclipart.org/detail/181397/red-analog-scale-by-rdevries-181397</dc:source
+        >
+        <dc:creator
+          >
+          <cc:Agent
+            >
+            <dc:title
+              >rdevries</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:creator
+        >
+        <dc:subject
+          >
+          <rdf:Bag
+            >
+            <rdf:li
+              >balance measure</rdf:li
+            >
+            <rdf:li
+              >kitchen</rdf:li
+            >
+            <rdf:li
+              >measuring</rdf:li
+            >
+            <rdf:li
+              >proportion</rdf:li
+            >
+            <rdf:li
+              >scale</rdf:li
+            >
+            <rdf:li
+              >scales</rdf:li
+            >
+            <rdf:li
+              >weight</rdf:li
+            >
+            <rdf:li
+              >weighting scale</rdf:li
+            >
+          </rdf:Bag
+          >
+        </dc:subject
+        >
+      </cc:Work
+      >
+      <cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        >
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        />
+      </cc:License
+      >
+    </rdf:RDF
+    >
+  </metadata
+  >
+</svg
+>
