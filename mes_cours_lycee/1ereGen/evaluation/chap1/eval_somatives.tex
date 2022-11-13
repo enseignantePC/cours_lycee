@@ -1,0 +1,115 @@
+\documentclass[11pt]{exam}		%Doc : https://mirrors.ircam.fr/pub/CTAN/macros/latex/contrib/exam/examdoc.pdf
+
+% \printanswers					%Comment this line to hide the answers 
+
+\pointpoints{point}{points}
+\addpoints
+
+\input{structure.tex}
+\usepackage{booktabs}
+\usepackage{enumitem}
+
+%----------------------------------------------------------------------------------------
+%	REQUIRED
+%----------------------------------------------------------------------------------------
+\newcommand{\Titre}{Chapitre 1} % 
+\newcommand{\ConsignesGenerales}{
+	\begin{list}{$\bullet$}{}
+		\item Noter nom et prénom et classe en haut à gauche de la page.
+		\item Répondre aux questions par des phrases.
+		\item Essayer de répondre à toutes les questions.
+		\item Ne pas perdre trop de temps si on ne comprends pas une question : passer à la suite pour avoir un maximum de points! 
+	\end{list}
+	% \begin{itemize}
+	% 	% \item Ne pas se décourager :)
+	% 	\vspace{-5pt}
+	% \end{itemize}
+	}
+
+\title{\Titre}
+\begin{document}
+\thispagestyle{headandfoot}
+
+\section{\Titre} % peut faire une partie d'un gros examen
+
+\headrule
+\footrule
+\setlength{\columnsep}{0.25cm}
+\setlength{\columnseprule}{1pt}
+
+\consignes
+
+
+% \begin{multicols}2
+\begin{questions}
+	\question[1] La radioactivité est-elle un phénomène naturel?
+	\answerbox{1}{}
+
+	\question[1] À quoi correspond la durée de demi vie d'un atome radioactif?
+	\answerbox{2}{}
+
+	\question[1 \half] Indiquer quelle réaction est une réaction de fusion nucléaire.
+
+	\begin{center}
+		\begin{minipage}[c]{0.4\textwidth}
+			\centering $^{238}_{92}U \rightarrow \alpha + ^{234}_{90}Th $
+		\end{minipage}
+		\hspace{0.1\textwidth}
+		\begin{minipage}[c]{0.4\textwidth}
+			\centering $ ²_1H + ³_1H → ⁴_2He + n $
+		\end{minipage}
+	\end{center} \vspace{10pt}
+
+	\question[2] Donner la composition (combien de protons et de neutrons) des atomes suivants $^1_1$H, \hspace{5pt} $^3_2$He, \hspace{5pt} $⁸_4Be$ \hspace{5pt} $^{14}_6C$:
+	\answerbox{2}{}
+
+	\question[1\half] Écrire l'équation de réaction qui correspond à l'image.
+
+	\begin{center}
+		\includegraphics[scale=0.4]{r1.png}
+	\end{center}
+
+	\answerbox{1}{}
+
+	\clearpage
+
+	\question[2] Convertir les valeurs suivantes :
+	\begin{multicols}2
+		\centering
+		4mm  = .................. m
+
+		\phantom{}
+
+		540g = .................. kg
+
+		37dm = .................. m
+
+		\phantom{}
+
+		1$m³$ = .................. $cm³$
+
+	\end{multicols}
+
+	\question[4] On va utiliser l'isotope $^{131}_{53}I$ dont la demi vie de est de 8 jours comme traceur médical.
+	\begin{itemize}
+		\item La quantité de traceur va t-elle diminuer de façon continue?
+		      \answerbox{1}{}
+		\item Combien de temps faut-il attendre pour qu'il reste 25\% de noyaux radioactifs?
+		      \answerbox{1}{}
+		\item Si on commence avec $4.60 \times 10^{15}$ atomes, combien en reste t-il au bout de 32 jours?
+		      \answerbox{1}{}
+	\end{itemize}
+
+	\question[2] Expliquer brièvement comment peut-on connaître la composition du soleil?
+	\answerbox{3}{}
+
+
+	% \answerbox{3}{}
+\end{questions}
+% \end{multicols}
+
+% \clearpage
+
+\countpoint
+
+\end{document}
