@@ -1,0 +1,103 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cleese Assignment (For Students)
+% LaTeX Template
+% Version 2.0 (27/5/2018)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Author:
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt]{article}
+\input{activite.sty} % Include the file specifying the document structure and custom commands
+% \usepackage{activite}
+%----------------------------------------------------------------------------------------
+%	ASSIGNMENT INFORMATION
+%----------------------------------------------------------------------------------------
+
+% Required
+\newcommand{\assignmentQuestionName}{Question} % The word to be used as a prefix to question numbers; example alternatives: Problem, Exercise
+\newcommand{\assignmentClass}{Physique Chimie} % Course/class
+\newcommand{\assignmentTitle}{Activité n°} % Assignment title or name
+\newcommand{\assignmentAuthorName}{Mme Cercy} %
+
+%----------------------------------------------------------------------------------------
+%	VARIABLES
+%----------------------------------------------------------------------------------------
+
+\newcommand{\titreActivite}{Cours} % titre de l'activité
+
+\begin{document}
+
+\date{}
+\title{\titreActivite}
+\maketitle % Print the title page
+
+
+\begin{center}
+	\textbf{\huge Le réacteur solaire}
+\end{center}
+\begin{list}{$\bullet$}{}
+	\item L’origine de l’énergie solaire
+
+	      Le Soleil est le siège de réactions nucléaires de fusion entre noyaux d’hydrogène.
+	      Ces réactions en chaîne, nécessitant une température minimale de 15 millions de kelvin,
+	      peuvent se résumer à l’équation bilan :
+	      $$4 ^1_1​H→_2^4He+ 2\text{ } _1^0​e+2γ+2ν$$
+
+	      Lors de cette réaction, la somme des masses des produits est très légèrement inférieure à celle des réactifs. Ce défaut de masse Δm est à l’origine de l’énergie dégagée
+	      par le Soleil sous forme de rayonnement. Elle peut
+	      se calculer grâce à la fameuse relation d’Einstein :
+
+	      $$ΔE=Δm⋅c^2 (\text{ avec  }ΔE \text{  en J,  }Δm\text{ en kg, et  } c=3,0×10^8m·s^{-1})$$
+
+	\item La température de surface du Soleil
+	      \begin{itemize}
+		      \item Le corps noir est un corps idéal qui absorbe toutes les radiations électromagnétiques qu’il reçoit
+		            (aucune réflexion n'est possible).
+		            La loi de Planck indique que lorsque ce type de corps émet un rayonnement,
+		            celui-ci ne dépend que de la température du corps.
+		      \item Le spectre du Soleil montre qu'il se comporte en première approximation comme un corps noir.
+		      \item Loi de Wien (propre aux corps noirs) : $λ_{max}⋅T=2,9×10^{-3}m·K$ .
+		            Cette relation permet de déterminer la température de surface T du Soleil :
+		            connaissant grâce à son spectre la longueur d’onde d’émission maximale $λ_{max​}$
+		            on accède à la valeur de T par le calcul.
+	      \end{itemize}
+\end{list}
+
+
+\begin{center}
+	\textbf{\huge La réception de l’énergie solaire sur Terre}
+\end{center}
+
+\begin{list}{$\bullet$}{}
+	\item Une répartition variable dans le temps
+	      \begin{itemize}
+		      \item En un point donné, le rayonnement solaire reçu par la Terre varie dans le temps : plus grand le jour que la nuit et plus important en été qu’en hiver (dans l’hémisphère nord).
+		      \item La puissance radiative reçue du Soleil par une surface plane est proportionnelle à l’aire de la surface et donc dépend de l’angle incident.
+		      \item Ces variations temporelles en un même lieu sont dues respectivement :
+		            \begin{enumerate}
+			            \item à la rotation de la Terre sur elle-même, ce qui modifie l’angle d’incidence des rayons solaires durant le jour ;
+			            \item à l’inclinaison de l’axe de la Terre par rapport au plan de révolution autour du Soleil, ce qui expose les hémisphères à des angles d’incidence variables suivant le moment de l’année.
+			                  C’est l’origine des saisons.
+		            \end{enumerate}
+
+	      \end{itemize}
+	\item Une répartition variable dans l’espace
+	      \begin{itemize}
+		      \item Les moyennes annuelles de température au sol sont d’autant plus fortes que l’on se rapproche de l’équateur, et d’autant plus basses que l’on va vers les pôles. Ceci explique en grande partie les climats, zonés de façon latitudinale.
+		      \item En effet, en raison de la rotondité de la Terre, le rayonnement solaire frappe sa surface de façon oblique d’autant plus que la latitude est élevée, alors que le rayonnement atteignant l’équateur est perpendiculaire à la surface du sol.
+	      \end{itemize}
+\end{list}
+
+\end{document}
