@@ -9,12 +9,13 @@
 }
 
 
-#let question(body, point : 1) = {
-  (body : body, point : point, type : "question")
+#let question(body, point : 1,answer : []) = {
+  (body : body, point : point, answer : answer, type : "question")
 }
 
 #let eval(
       ..args, // can contain question node or plain content that will be inserted between the questions
+      show_correction : false,
       // formats the questions
       qfmt : i => [_Question #{i+1}) _],
       // format the rectangle that will contain how much point the question is worth
@@ -27,7 +28,8 @@
                 height: 1.1em)[
                   #set align(center + horizon)
                   #x pt#{if x>1 {[s]}}
-                ]]
+                ]],
+      answerfmt : i => [#set text(red);\ *#i*]
     ) = {
       let is_question(i) = {(
               type(i) == "dictionary"
@@ -36,12 +38,14 @@
       let q = args.pos().filter(is_question)
       let ca = q.map(i => i.body)
       let pa = q.map(i => i.point)
+      let correction_array = q.map(i => if show_correction {i.answer} else {[]} )
 
       
       let ca = range(ca.len()) 
           .map(
             // format questions and adds a point rectangle
-            i => qfmt(i) + ca.at(i) + prfmt(pa.at(i))) 
+            i => qfmt(i) + ca.at(i) + prfmt(pa.at(i)) + 
+            answerfmt(correction_array.at(i)) ) 
         // adds intermediary content
         let tmp = args.pos()
         while tmp.len() > ca.len() {ca.push[]} // just to make sure you can add content that comes after the last question
@@ -51,7 +55,7 @@
           ca.at(pos) = [#tmp.remove(pos) \ ] + ca.at(pos)
         }
           
-        ca.join([\ ])
+        ca.join([\ #v(-5pt)])
 
         v(1fr) 
     
@@ -66,5 +70,6 @@
         ))
         v(-6pt)
 }
+
 
 
