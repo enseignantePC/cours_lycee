@@ -2,8 +2,18 @@
 #show heading.where(level: 2): it => {align(center,it)
 v(5pt)}
 
-#set page(margin: 1cm)
-#set text(size : 0.86em,hyphenate: true, ligatures: true, lang : "fr")
+#set page(
+    "a4",
+    margin: 1.2cm
+    )
+#set text(
+    font : "Caladea",
+    fallback: false,
+    size : 0.83em,
+    hyphenate: true, 
+    ligatures: true, 
+    lang : "fr"
+    )
 #set par(justify: true)
 
 = #text(size: 2em)[Exercice]
@@ -35,7 +45,9 @@ v(5pt)}
 Le nouveau record (2017) pour une voiture électrique est
 d'accélérer de O à 100 #kmh! en 1,90 s.
 
-Si on considère que l'accélération est constante, on peut modéliser l'équation horaire de la trajectoire de la voiture par l'équation $x(t) = 7,31 times t^2$.
+Si on considère que l'accélération est constante, on peut modéliser l'équation horaire de la trajectoire de la voiture par l'équation 
+
+$x(t) = 7,31 times t^2$.
 
 + Calculer l'accélération a de la voiture à partir des données du record.
 +  Calculer la vitesse de la voiture au bout de 1 seconde.
