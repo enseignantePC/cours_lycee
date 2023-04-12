@@ -1,0 +1,52 @@
+On lâche une bille de masse m sans vitesse initiale.
+
+Le tableau ci-dessous indique la hauteur de chute en
+
+fonction de sa durée.
+
+ 
+
+Hauteur de chute
+(en m)
+
+Durée de la chute t
+(ens)
+
+ 
+
+1,277
+
+10
+
+1,428
+
+ 
+
+Vitesse (en m-s) 0
+
+ 
+
+Accélération
+
+(en ms?
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1. Calculer les vitesses correspondantes aux hauteurs de
+
+chute de 2,4,6et8 m.
+
+2. Calculer les accélérations correspondantes aux hauteurs
+
+de chute de 2, 4et 6 m.
+
